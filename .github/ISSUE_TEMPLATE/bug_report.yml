@@ -1,0 +1,194 @@
+name: 🐛 Bug Report
+description: Reporte um bug para nos ajudar a melhorar
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+assignees:
+  - kernelmind-team
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar este bug! Isso nos ajuda a melhorar o KernelMind para todos.
+        
+        👍 **Dica**: Antes de criar um novo issue, verifique se já existe um similar.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Componente Afetado
+      description: Qual parte do KernelMind está com problema?
+      options:
+        - 🎵 Álbum Musical / Faixas de Áudio
+        - 💻 Aplicativo Web
+        - 🔌 IDE Extensions (VS Code, JetBrains, etc.)
+        - 📱 Aplicativo Móvel
+        - 🌐 Website / Documentação
+        - 🧠 Batidas Binaurais / Efeitos Neurais
+        - 🔑 Autenticação / Conta de Usuário
+        - 📉 Analytics / Tracking
+        - 🚀 Performance / Velocidade
+        - 🔄 Sincronização entre Dispositivos
+        - 🎮 Integração com IDEs
+        - 📊 Outro
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severidade
+      description: Quão impactante é este bug?
+      options:
+        - 🔴 Critical - Aplicativo não funciona / Crash
+        - 🟠 High - Feature principal quebrada
+        - 🟡 Medium - Feature secundária com problemas
+        - 🟢 Low - Problema cosmético / UX menor
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição do Bug
+      description: Descreva claramente o que está acontecendo
+      placeholder: Ex. "Quando eu clico no botão Play, a música não começa e aparece um erro..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para Reproduzir
+      description: Como podemos reproduzir este problema?
+      placeholder: |
+        1. Vá para '...'
+        2. Clique em '...'
+        3. Role para baixo até '...'
+        4. Veja o erro
+      value: |
+        1. 
+        2. 
+        3. 
+        4. 
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento Esperado
+      description: O que você esperava que acontecesse?
+      placeholder: Ex. "A música deveria começar a tocar imediatamente..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportamento Atual
+      description: O que realmente aconteceu?
+      placeholder: Ex. "Nada acontece e aparece um erro no console..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Navegador (se aplicável)
+      description: Qual navegador você estava usando?
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Opera
+        - Brave
+        - Outro
+        - N/A - Não é problema de navegador
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Sistema Operacional
+      description: Qual SO você está usando?
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS (Intel)
+        - macOS (Apple Silicon)
+        - Ubuntu / Debian
+        - Fedora / RHEL
+        - Arch Linux
+        - iOS
+        - Android
+        - Outro Linux
+        - Outro
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ide
+    attributes:
+      label: IDE/Editor (se aplicável)
+      description: Qual IDE você estava usando?
+      options:
+        - VS Code
+        - IntelliJ IDEA
+        - PyCharm
+        - WebStorm
+        - PhpStorm
+        - Sublime Text
+        - Vim/Neovim
+        - Emacs
+        - Atom
+        - Outro
+        - N/A - Não estava usando IDE
+
+  - type: input
+    id: version
+    attributes:
+      label: Versão do KernelMind
+      description: Que versão você está usando? (Encontre em Configurações > Sobre)
+      placeholder: Ex. "1.2.3" ou "latest"
+    validations:
+      required: true
+
+  - type: textarea
+    id: console-logs
+    attributes:
+      label: Logs / Mensagens de Erro
+      description: Cole aqui qualquer mensagem de erro ou logs relevantes
+      placeholder: |
+        Cole logs do console do navegador, terminal, ou arquivos de log.
+        
+        Para acessar console do navegador:
+        - Chrome/Edge/Firefox: F12 > Console
+        - Safari: Develop > Show JavaScript Console
+      render: shell
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto Adicional
+      description: Qualquer informação extra que possa ajudar
+      placeholder: |
+        - Há quanto tempo isso vem acontecendo?
+        - Acontece sempre ou esporadicamente?
+        - Você estava fazendo algo específico quando o bug aconteceu?
+        - Screenshots ou vídeos seriam muito úteis!
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      description: Por favor, confirme que você:
+      options:
+        - label: Pesquisei por issues similares e não encontrei duplicatas
+          required: true
+        - label: Testei com a última versão do KernelMind
+          required: true
+        - label: Li o [guia de troubleshooting](../FAQ.md#troubleshooting)
+          required: false
+        - label: Estou disposto(a) a ajudar com testes adicionais se necessário
+          required: false

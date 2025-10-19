@@ -1,0 +1,245 @@
+name: 🎵 Music Feedback
+description: Feedback sobre as faixas musicais ou sugestões de melhorias
+title: "[MUSIC] "
+labels: ["music", "feedback", "needs-triage"]
+assignees:
+  - kernelmind-music-team
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por compartilhar seu feedback sobre a música do KernelMind! 
+        Seu input é essencial para criarmos a melhor experiência sonora possível.
+        
+        🎵 **Nota**: Este template é para feedback musical, não bugs técnicos.
+
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: Tipo de Feedback
+      description: Que tipo de feedback você gostaria de compartilhar?
+      options:
+        - 🎼 Feedback sobre faixa específica
+        - 🎶 Sugestão de nova faixa
+        - 🧠 Feedback sobre batidas binaurais
+        - 🔊 Problema com qualidade de áudio
+        - 🔄 Sugestão de remix/variação
+        - 🎯 Feedback geral sobre o álbum
+        - 🔬 Relato de efeitos na produtividade
+        - 🎮 Sugestão de integração com IDE
+    validations:
+      required: true
+
+  - type: dropdown
+    id: track
+    attributes:
+      label: Faixa (se aplicável)
+      description: Sobre qual faixa é o feedback?
+      options:
+        - "01 - Boot Kernel"
+        - "02 - Interrupt Handler"
+        - "03 - Overclock"
+        - "04 - Kernel Panic"
+        - "05 - Trace Stack"
+        - "06 - Memory Leak"
+        - "07 - Deadlock"
+        - "08 - Garbage Collector"
+        - "09 - Reboot Sequence"
+        - "Todas as faixas"
+        - "N/A - Não sobre faixa específica"
+
+  - type: dropdown
+    id: listening-context
+    attributes:
+      label: Contexto de Uso
+      description: Em que situação você ouviu?
+      options:
+        - 💻 Programando ativamente
+        - 🔍 Debugging / Resolvendo bugs
+        - 📝 Code review
+        - 📚 Lendo documentação
+        - 📈 Planejando/arquitetura
+        - ☕ Pausa/descanso
+        - 🎧 Apenas ouvindo (sem programar)
+        - 🌃 Trabalhando tarde da noite
+        - 🌅 Começo do dia
+        - 👥 Em ambiente com outras pessoas
+        - 🏠 Home office
+        - 🏢 Escritório
+        - Outro contexto
+    validations:
+      required: true
+
+  - type: dropdown
+    id: equipment
+    attributes:
+      label: Equipamento de Áudio
+      description: Como você ouviu a música?
+      options:
+        - 🎧 Fones over-ear (Sony, Sennheiser, etc.)
+        - 🎧 Fones on-ear
+        - 🔊 Earbuds com fio
+        - 🔊 AirPods / Earbuds wireless
+        - 🔊 Speakers de mesa
+        - 🔊 Sistema de som ambiente
+        - 💻 Speakers do laptop/desktop
+        - 📱 Speakers do celular/tablet
+        - Outro equipamento
+    validations:
+      required: true
+
+  - type: dropdown
+    id: session-length
+    attributes:
+      label: Duração da Sessão
+      description: Por quanto tempo você ouviu?
+      options:
+        - "< 15 minutos"
+        - "15-30 minutos"
+        - "30-60 minutos"
+        - "1-2 horas"
+        - "2-4 horas"
+        - "> 4 horas"
+        - "Sessão completa (loop)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: 📝 Seu Feedback
+      description: Compartilhe seus pensamentos, sentiões e observações
+      placeholder: |
+        - O que você gostou?
+        - O que poderia ser melhorado?
+        - Como a música afetou seu foco/produtividade?
+        - Algum elemento específico chamou atenção?
+        - A música combinou com a atividade que estava fazendo?
+    validations:
+      required: true
+
+  - type: textarea
+    id: productivity-impact
+    attributes:
+      label: 📈 Impacto na Produtividade
+      description: Como a música afetou seu trabalho? (se notável)
+      placeholder: |
+        - Sentiu melhora no foco?
+        - Ajudou a manter concentração por mais tempo?
+        - Reduziu distrações?
+        - Melhorou o humor durante o trabalho?
+        - Algo atrapalhou ou distraiu?
+        - Comparado com sua trilha sonora normal, como foi?
+
+  - type: dropdown
+    id: binaural-effects
+    attributes:
+      label: 🧠 Efeitos das Batidas Binaurais
+      description: Notou algum efeito das frequências neurais?
+      options:
+        - 🚀 Sim, senti melhora notável no foco
+        - ✅ Talvez, mas não tenho certeza
+        - 🤷 Não notei diferença
+        - 😕 Senti algum desconforto
+        - 🎧 Usei speakers (efeito não funciona)
+        - 🔍 Preciso testar mais para ter certeza
+
+  - type: textarea
+    id: specific-moments
+    attributes:
+      label: ✨ Momentos Específicos
+      description: Houve algum momento marcante durante a audição?
+      placeholder: |
+        - Alguma parte da música que "encaixou" perfeitamente com o que estava fazendo?
+        - Momentos onde sentiu que o ritmo/energia estava perfect
+        - Transições que funcionaram bem ou mal?
+        - Elementos sonoros que se destacaram (positiva ou negativamente)?
+
+  - type: dropdown
+    id: programming-language
+    attributes:
+      label: 💻 Linguagem de Programação
+      description: Que linguagem você estava usando?
+      options:
+        - JavaScript / TypeScript
+        - Python
+        - Java
+        - C#
+        - C++
+        - Go
+        - Rust
+        - PHP
+        - Ruby
+        - Swift
+        - Kotlin
+        - Dart
+        - SQL
+        - HTML/CSS
+        - Shell scripting
+        - Outra linguagem
+        - Não estava programando
+
+  - type: dropdown
+    id: task-type
+    attributes:
+      label: 🎯 Tipo de Tarefa
+      description: Que tipo de trabalho você estava fazendo?
+      options:
+        - 🎆 Desenvolvendo nova feature
+        - 🐛 Corrigindo bugs
+        - 🔄 Refatorando código
+        - 📖 Escrevendo testes
+        - 📝 Documentação
+        - 🎨 Design/UI work
+        - 🔍 Debugging complexo
+        - 📋 Code review
+        - 👥 Pair programming
+        - 📈 Planejamento/arquitetura
+        - 📚 Aprendendo nova tecnologia
+        - Outra tarefa
+
+  - type: input
+    id: rating
+    attributes:
+      label: ⭐ Avaliação (1-10)
+      description: Como você avaliaria esta experiência musical?
+      placeholder: "Ex: 8 (sendo 1=terrivel, 10=perfeito)"
+
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: 💡 Sugestões de Melhoria
+      description: Como poderíamos melhorar?
+      placeholder: |
+        - Ajustes em BPM, instrumentos, estrutura?
+        - Novas faixas para situações específicas?
+        - Features no aplicativo?
+        - Integrações com ferramentas?
+        - Personalização de parâmetros?
+
+  - type: textarea
+    id: comparison
+    attributes:
+      label: 🎵 Comparação com Outras Músicas
+      description: Como se compara com sua trilha sonora habitual?
+      placeholder: |
+        - Que tipo de música você normalmente ouve enquanto programa?
+        - O KernelMind é melhor/pior/similar?
+        - Artistas ou álbuns que você recomendaria como referência?
+        - O que torna uma música ideal para você programar?
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Permissões
+      description: Você permite que:
+      options:
+        - label: Usemos seu feedback para melhorar as faixas existentes
+          required: true
+        - label: Citemos seu feedback (anonimamente) em materiais promocionais
+          required: false
+        - label: Entremos em contato para feedback adicional sobre futuras versões
+          required: false
+        - label: Incluámos seu nome nos agradecimentos (se você quiser)
+          required: false

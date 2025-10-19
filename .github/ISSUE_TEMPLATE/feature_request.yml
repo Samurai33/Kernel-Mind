@@ -1,0 +1,214 @@
+name: ✨ Feature Request
+description: Sugira uma nova funcionalidade para o KernelMind
+title: "[FEATURE] "
+labels: ["enhancement", "needs-triage"]
+assignees:
+  - kernelmind-team
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por sugerir uma nova feature! Suas ideias nos ajudam a fazer o KernelMind ainda melhor.
+        
+        💡 **Dica**: Quanto mais detalhes você fornecer, melhor poderemos entender e implementar sua sugestão.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Componente
+      description: Para qual parte do KernelMind é esta feature?
+      options:
+        - 🎵 Álbum Musical / Novas Faixas
+        - 💻 Aplicativo Web
+        - 🔌 IDE Extensions
+        - 📱 Aplicativo Móvel
+        - 🌐 Website / Documentação
+        - 🧠 Batidas Binaurais / Neurociência
+        - 📉 Analytics / Produtividade
+        - 🚀 Performance / Otimização
+        - 🔄 Sincronização / Integração
+        - 🎮 Gamificação / Motivação
+        - 🌍 Comunidade / Social
+        - 📊 Outro
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioridade (na sua opinião)
+      description: Quão importante é esta feature para você?
+      options:
+        - 🔴 Must-have - Crucial para meu workflow
+        - 🟠 High - Melhoraria muito minha experiência
+        - 🟡 Medium - Seria útil ter
+        - 🟢 Low - Nice-to-have
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 📝 Problema ou Necessidade
+      description: Que problema esta feature resolveria? Ou que necessidade atenderia?
+      placeholder: |
+        Ex. "Quando estou codando JavaScript, gostaria de ter faixas mais rápidas que se adaptem ao meu ritmo de digitação..."
+        
+        Ou: "Como desenvolvedor que trabalha em equipe, preciso de uma forma de sincronizar sessões de foco com meus colegas..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: ✨ Solução Proposta
+      description: Como você imagina que essa feature funcionaria?
+      placeholder: |
+        Descreva sua ideia em detalhes:
+        - Como o usuário interagiria com ela?
+        - Onde ela apareceria na interface?
+        - Como ela se comportaria?
+        
+        Seja criativo! Não se preocupe com viabilidade técnica por enquanto.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternativas Consideradas
+      description: Você pensou em outras formas de resolver este problema?
+      placeholder: |
+        - Tentou alguma solução temporária?
+        - Conhece alguma ferramenta que faz algo similar?
+        - Tem outras ideias de implementação?
+
+  - type: dropdown
+    id: user-type
+    attributes:
+      label: 👤 Tipo de Desenvolvedor
+      description: Como você se identifica? (para entendermos melhor seu use case)
+      options:
+        - Frontend Developer
+        - Backend Developer
+        - Full-stack Developer
+        - Mobile Developer
+        - Game Developer
+        - Data Scientist / ML Engineer
+        - DevOps / SRE
+        - UI/UX Designer que programa
+        - Estudante de Programação
+        - Freelancer
+        - Tech Lead / Manager
+        - Outro
+    validations:
+      required: true
+
+  - type: dropdown
+    id: languages
+    attributes:
+      label: 💻 Linguagens Principais
+      description: Que linguagens você usa mais? (múltipla escolha nas descrições)
+      options:
+        - JavaScript / TypeScript
+        - Python
+        - Java / Kotlin
+        - C# / .NET
+        - C / C++
+        - Go
+        - Rust
+        - PHP
+        - Ruby
+        - Swift / Objective-C
+        - Dart / Flutter
+        - Scala
+        - Clojure
+        - Haskell
+        - Assembly
+        - SQL
+        - HTML/CSS
+        - Shell scripting
+        - Outras (especifique no contexto)
+
+  - type: input
+    id: team-size
+    attributes:
+      label: 👥 Tamanho da Equipe
+      description: Você trabalha sozinho ou em equipe? Quantas pessoas?
+      placeholder: Ex. "Solo", "2-5 pessoas", "10+ pessoas"
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: 🎯 Casos de Uso Detalhados
+      description: Em que situações específicas você usaria esta feature?
+      placeholder: |
+        Ex. "Durante sessões de debugging longas..."
+        Ex. "Quando estou fazendo pair programming..."
+        Ex. "Nos últimos 30 minutos antes de um deadline..."
+        
+        Quanto mais específico, melhor!
+    validations:
+      required: true
+
+  - type: textarea
+    id: mockups
+    attributes:
+      label: 🎨 Mockups ou Wireframes
+      description: Tem alguma ideia visual? Cole links para imagens ou descreva a interface
+      placeholder: |
+        - Links para mockups (Figma, etc.)
+        - Screenshots de referências
+        - Descrição textual da UI
+        - Fluxo de interação do usuário
+
+  - type: textarea
+    id: technical-notes
+    attributes:
+      label: 🔧 Considerações Técnicas
+      description: (Opcional) Alguma ideia sobre implementação técnica?
+      placeholder: |
+        - APIs que poderiam ser usadas
+        - Integrações necessárias
+        - Preocupações de performance
+        - Considerações de privacidade
+
+  - type: textarea
+    id: success-metrics
+    attributes:
+      label: 📈 Métricas de Sucesso
+      description: Como saberemos que esta feature foi bem-sucedida?
+      placeholder: |
+        - Como você mediria o sucesso desta feature?
+        - Que comportamento você esperaria ver?
+        - Que feedback indicaria que está funcionando bem?
+
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: 🤝 Disposição para Contribuir
+      description: Você gostaria de ajudar a implementar esta feature?
+      options:
+        - 🙋 Sim! Posso ajudar com código
+        - 🎨 Sim! Posso ajudar com design/UX
+        - 🔬 Sim! Posso ajudar com testes/pesquisa
+        - 📝 Sim! Posso ajudar com documentação
+        - 📋 Sim! Posso dar feedback durante desenvolvimento
+        - 🙄 Não tenho tempo no momento
+        - 🤷 Não sei como ajudar, mas gostaria de aprender
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      description: Por favor, confirme que você:
+      options:
+        - label: Pesquisei por feature requests similares e não encontrei duplicatas
+          required: true
+        - label: Li o [roadmap do projeto](../IMPLEMENTATION_ROADMAP.md) para ver se não está já planejado
+          required: false
+        - label: Entendo que esta é uma sugestão e pode não ser implementada
+          required: true
+        - label: Estou disposto(a) a participar de discussões sobre esta feature
+          required: true

@@ -1,0 +1,21 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discord
+    url: https://discord.gg/kernelmind
+    about: Junte-se à nossa comunidade para discussões gerais e suporte
+  
+  - name: 📚 Documentation
+    url: https://docs.kernelmind.audio
+    about: Consulte nossa documentação completa antes de reportar bugs
+  
+  - name: ❓ FAQ
+    url: https://github.com/KernelMind/KernelMind/blob/main/FAQ.md
+    about: Perguntas frequentes e troubleshooting
+  
+  - name: 🔒 Security Issue
+    url: https://github.com/KernelMind/KernelMind/blob/main/SECURITY.md
+    about: Reporte vulnerabilidades de segurança de forma responsável
+  
+  - name: 📧 Direct Contact
+    url: mailto:support@kernelmind.audio
+    about: Entre em contato diretamente para questões sensíveis
