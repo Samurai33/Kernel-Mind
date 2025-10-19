@@ -182,7 +182,7 @@ MIT — see [LICENSE](LICENSE).
 
 Thanks to everyone who contributed. See the contributors graph on GitHub.
 
-[![Contributors](https://contrib.rocks/image?repo=KernelMind/KernelMind)](https://github.com/KernelMind/KernelMind/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=KernelMind/KernelMind&size=200)](https://github.com/KernelMind/KernelMind/graphs/contributors)
 
 ---
 
