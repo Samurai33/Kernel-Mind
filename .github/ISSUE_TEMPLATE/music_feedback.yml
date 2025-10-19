@@ -1,5 +1,5 @@
 name: 🎵 Music Feedback
-description: Feedback sobre as faixas musicais ou sugestões de melhorias
+description: Feedback about musical tracks or suggestions for improvements
 title: "[MUSIC] "
 labels: ["music", "feedback", "needs-triage"]
 assignees:
@@ -9,33 +9,33 @@ body:
   - type: markdown
     attributes:
       value: |
-        Obrigado por compartilhar seu feedback sobre a música do KernelMind! 
-        Seu input é essencial para criarmos a melhor experiência sonora possível.
-        
-        🎵 **Nota**: Este template é para feedback musical, não bugs técnicos.
+        Thank you for sharing your feedback about KernelMind music! 
+        Your input is essential to help us craft the best sonic experience possible.
+
+        🎵 **Note**: This template is for musical feedback, not technical bugs.
 
   - type: dropdown
     id: feedback-type
     attributes:
-      label: Tipo de Feedback
-      description: Que tipo de feedback você gostaria de compartilhar?
+      label: Feedback Type
+      description: What type of feedback would you like to share?
       options:
-        - 🎼 Feedback sobre faixa específica
-        - 🎶 Sugestão de nova faixa
-        - 🧠 Feedback sobre batidas binaurais
-        - 🔊 Problema com qualidade de áudio
-        - 🔄 Sugestão de remix/variação
-        - 🎯 Feedback geral sobre o álbum
-        - 🔬 Relato de efeitos na produtividade
-        - 🎮 Sugestão de integração com IDE
+        - 🎼 Feedback about a specific track
+        - 🎶 Suggestion for a new track
+        - 🧠 Binaural beats feedback
+        - 🔊 Audio quality issue
+        - 🔄 Suggestion for remix/variation
+        - 🎯 General album feedback
+        - 🔬 Report of productivity effects
+        - 🎮 Suggestion for IDE integration
     validations:
       required: true
 
   - type: dropdown
     id: track
     attributes:
-      label: Faixa (se aplicável)
-      description: Sobre qual faixa é o feedback?
+      label: Track (if applicable)
+      description: Which track is the feedback about?
       options:
         - "01 - Boot Kernel"
         - "02 - Interrupt Handler"
@@ -46,121 +46,125 @@ body:
         - "07 - Deadlock"
         - "08 - Garbage Collector"
         - "09 - Reboot Sequence"
-        - "Todas as faixas"
-        - "N/A - Não sobre faixa específica"
+        - "All tracks"
+        - "N/A - Not about a specific track"
 
   - type: dropdown
     id: listening-context
     attributes:
-      label: Contexto de Uso
-      description: Em que situação você ouviu?
+      label: Listening Context
+      description: In what situation did you listen?
       options:
-        - 💻 Programando ativamente
-        - 🔍 Debugging / Resolvendo bugs
+        - 💻 Actively coding
+        - 🔍 Debugging / fixing bugs
         - 📝 Code review
-        - 📚 Lendo documentação
-        - 📈 Planejando/arquitetura
-        - ☕ Pausa/descanso
-        - 🎧 Apenas ouvindo (sem programar)
-        - 🌃 Trabalhando tarde da noite
-        - 🌅 Começo do dia
-        - 👥 Em ambiente com outras pessoas
+        - 📚 Reading documentation
+        - 📈 Planning/architecture
+        - ☕ Break/relaxing
+        - 🎧 Just listening (not coding)
+        - 🌃 Working late at night
+        - 🌅 Start of the day
+        - 👥 In a shared environment
         - 🏠 Home office
-        - 🏢 Escritório
-        - Outro contexto
+        - 🏢 Office
+        - Other
     validations:
       required: true
 
   - type: dropdown
     id: equipment
     attributes:
-      label: Equipamento de Áudio
-      description: Como você ouviu a música?
+      label: Audio Equipment
+      description: How did you listen to the music?
       options:
-        - 🎧 Fones over-ear (Sony, Sennheiser, etc.)
-        - 🎧 Fones on-ear
-        - 🔊 Earbuds com fio
-        - 🔊 AirPods / Earbuds wireless
-        - 🔊 Speakers de mesa
-        - 🔊 Sistema de som ambiente
-        - 💻 Speakers do laptop/desktop
-        - 📱 Speakers do celular/tablet
-        - Outro equipamento
+        - 🎧 Over-ear headphones (Sony, Sennheiser, etc.)
+        - 🎧 On-ear headphones
+        - 🔊 Wired earbuds
+        - 🔊 AirPods / wireless earbuds
+        - 🔊 Desktop speakers
+        - 🔊 Room sound system
+        - 💻 Laptop/desktop speakers
+        - 📱 Phone/tablet speakers
+        - Other
     validations:
       required: true
 
   - type: dropdown
     id: session-length
     attributes:
-      label: Duração da Sessão
-      description: Por quanto tempo você ouviu?
+      label: Session Length
+      description: How long did you listen?
       options:
-        - "< 15 minutos"
-        - "15-30 minutos"
-        - "30-60 minutos"
-        - "1-2 horas"
-        - "2-4 horas"
-        - "> 4 horas"
-        - "Sessão completa (loop)"
+        - "< 15 minutes"
+        - "15-30 minutes"
+        - "30-60 minutes"
+        - "1-2 hours"
+        - "2-4 hours"
+        - "> 4 hours"
+        - "Full session (loop)"
     validations:
       required: true
 
   - type: textarea
     id: feedback
     attributes:
-      label: 📝 Seu Feedback
-      description: Compartilhe seus pensamentos, sentiões e observações
+      label: 📝 Your Feedback
+      description: Share your thoughts, feelings and observations
       placeholder: |
-        - O que você gostou?
-        - O que poderia ser melhorado?
-        - Como a música afetou seu foco/produtividade?
-        - Algum elemento específico chamou atenção?
-        - A música combinou com a atividade que estava fazendo?
+        - What did you like?
+        - What could be improved?
+        - How did the music affect your focus/productivity?
+        - Did any specific element catch your attention?
+        - Did the music match the activity you were doing?
     validations:
       required: true
 
   - type: textarea
     id: productivity-impact
     attributes:
-      label: 📈 Impacto na Produtividade
-      description: Como a música afetou seu trabalho? (se notável)
+      label: 📈 Productivity Impact
+      description: How did the music affect your work? (if notable)
       placeholder: |
-        - Sentiu melhora no foco?
-        - Ajudou a manter concentração por mais tempo?
-        - Reduziu distrações?
-        - Melhorou o humor durante o trabalho?
-        - Algo atrapalhou ou distraiu?
-        - Comparado com sua trilha sonora normal, como foi?
+        - Did you feel improved focus?
+        - Did it help maintain concentration for longer?
+        - Did it reduce distractions?
+        - Did it improve mood during work?
+        - Did anything hinder or distract?
+        - Compared to your normal soundtrack, how was it?
 
   - type: dropdown
     id: binaural-effects
     attributes:
-      label: 🧠 Efeitos das Batidas Binaurais
-      description: Notou algum efeito das frequências neurais?
+      label: 🧠 Binaural Beat Effects
+      description: Did you notice any effects from neural frequencies?
       options:
-        - 🚀 Sim, senti melhora notável no foco
-        - ✅ Talvez, mas não tenho certeza
-        - 🤷 Não notei diferença
-        - 😕 Senti algum desconforto
-        - 🎧 Usei speakers (efeito não funciona)
-        - 🔍 Preciso testar mais para ter certeza
+        - 🚀 Yes, I felt a noticeable improvement in focus
+        - ✅ Maybe, but not sure
+        - 🤷 I didn't notice a difference
+        - 😕 I felt some discomfort
+        - 🎧 I used speakers (effect may not work)
+        - 🔍 I need to test more to be sure
 
   - type: textarea
     id: specific-moments
     attributes:
-      label: ✨ Momentos Específicos
-      description: Houve algum momento marcante durante a audição?
+      label: ✨ Specific Moments
+      description: Were there any memorable moments during listening?
       placeholder: |
-        - Alguma parte da música que "encaixou" perfeitamente com o que estava fazendo?
-        - Momentos onde sentiu que o ritmo/energia estava perfect
-        - Transições que funcionaram bem ou mal?
-        - Elementos sonoros que se destacaram (positiva ou negativamente)?
+        - Any part of the music that "fit" perfectly with what you were doing?
+        - Moments where rhythm/energy felt perfect
+        - Transitions that worked well or poorly
+        - Sound elements that stood out (positive or negative)
 
   - type: dropdown
     id: programming-language
     attributes:
       label: 💻 Linguagem de Programação
       description: Que linguagem você estava usando?
+      id: programming-language
+      attributes:
+        label: 💻 Programming Language
+        description: Which language were you using?
       options:
         - JavaScript / TypeScript
         - Python
@@ -177,69 +181,73 @@ body:
         - SQL
         - HTML/CSS
         - Shell scripting
-        - Outra linguagem
-        - Não estava programando
+        - Other
+        - Not programming
 
   - type: dropdown
     id: task-type
     attributes:
       label: 🎯 Tipo de Tarefa
       description: Que tipo de trabalho você estava fazendo?
+      id: task-type
+      attributes:
+        label: 🎯 Task Type
+        description: What kind of work were you doing?
       options:
-        - 🎆 Desenvolvendo nova feature
-        - 🐛 Corrigindo bugs
-        - 🔄 Refatorando código
-        - 📖 Escrevendo testes
-        - 📝 Documentação
+        - 🎆 Working on a new feature
+        - 🐛 Fixing bugs
+        - 🔄 Refactoring code
+        - 📖 Writing tests
+        - 📝 Documentation
         - 🎨 Design/UI work
-        - 🔍 Debugging complexo
+        - 🔍 Complex debugging
         - 📋 Code review
         - 👥 Pair programming
-        - 📈 Planejamento/arquitetura
-        - 📚 Aprendendo nova tecnologia
-        - Outra tarefa
+        - 📈 Planning/architecture
+        - 📚 Learning a new technology
+        - Other
 
   - type: input
     id: rating
     attributes:
-      label: ⭐ Avaliação (1-10)
-      description: Como você avaliaria esta experiência musical?
-      placeholder: "Ex: 8 (sendo 1=terrivel, 10=perfeito)"
+      label: ⭐ Rating (1-10)
+      description: How would you rate this musical experience?
+      placeholder: "E.g.: 8 (1=terrible, 10=perfect)"
 
   - type: textarea
     id: suggestions
     attributes:
-      label: 💡 Sugestões de Melhoria
-      description: Como poderíamos melhorar?
+      label: 💡 Suggestions for Improvement
+      description: How could we improve?
       placeholder: |
-        - Ajustes em BPM, instrumentos, estrutura?
-        - Novas faixas para situações específicas?
-        - Features no aplicativo?
-        - Integrações com ferramentas?
-        - Personalização de parâmetros?
+        - Adjustments in BPM, instruments, structure?
+        - New tracks for specific situations?
+        - App features?
+        - Integrations with tools?
+        - Parameter personalization?
 
   - type: textarea
     id: comparison
     attributes:
-      label: 🎵 Comparação com Outras Músicas
-      description: Como se compara com sua trilha sonora habitual?
+      label: 🎵 Comparison with Other Music
+      description: How does it compare with your usual soundtrack?
       placeholder: |
-        - Que tipo de música você normalmente ouve enquanto programa?
-        - O KernelMind é melhor/pior/similar?
-        - Artistas ou álbuns que você recomendaria como referência?
-        - O que torna uma música ideal para você programar?
+        - What type of music do you normally listen to while programming?
+        - Is KernelMind better/worse/similar?
+        - Artists or albums you would recommend as reference?
+        - What makes music ideal for you to program to?
 
   - type: checkboxes
-    id: terms
+      id: terms
     attributes:
-      label: Permissões
-      description: Você permite que:
+      label: Permissions
+      description: Do you allow us to:
       options:
-        - label: Usemos seu feedback para melhorar as faixas existentes
+        - label: Use your feedback to improve existing tracks
           required: true
-        - label: Citemos seu feedback (anonimamente) em materiais promocionais
+        - label: Quote your feedback (anonymously) in promotional materials
           required: false
-        - label: Entremos em contato para feedback adicional sobre futuras versões
+        - label: Contact you for additional feedback on future versions
           required: false
-        - label: Incluámos seu nome nos agradecimentos (se você quiser)
+        - label: Include your name in acknowledgments (if you want)
           required: false

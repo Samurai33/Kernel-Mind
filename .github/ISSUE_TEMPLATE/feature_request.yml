@@ -1,5 +1,5 @@
 name: ✨ Feature Request
-description: Sugira uma nova funcionalidade para o KernelMind
+description: Suggest a new feature for KernelMind
 title: "[FEATURE] "
 labels: ["enhancement", "needs-triage"]
 assignees:
@@ -9,36 +9,36 @@ body:
   - type: markdown
     attributes:
       value: |
-        Obrigado por sugerir uma nova feature! Suas ideias nos ajudam a fazer o KernelMind ainda melhor.
+        Thanks for suggesting a new feature! Your ideas help make KernelMind even better.
         
-        💡 **Dica**: Quanto mais detalhes você fornecer, melhor poderemos entender e implementar sua sugestão.
+        💡 **Tip**: The more detail you provide, the better we can understand and implement your suggestion.
 
   - type: dropdown
     id: component
     attributes:
-      label: Componente
-      description: Para qual parte do KernelMind é esta feature?
+  label: Component
+  description: Which part of KernelMind is this feature for?
       options:
-        - 🎵 Álbum Musical / Novas Faixas
-        - 💻 Aplicativo Web
-        - 🔌 IDE Extensions
-        - 📱 Aplicativo Móvel
-        - 🌐 Website / Documentação
-        - 🧠 Batidas Binaurais / Neurociência
-        - 📉 Analytics / Produtividade
-        - 🚀 Performance / Otimização
-        - 🔄 Sincronização / Integração
-        - 🎮 Gamificação / Motivação
-        - 🌍 Comunidade / Social
-        - 📊 Outro
+  - 🎵 Musical Album / New Tracks
+  - 💻 Web App
+  - 🔌 IDE Extensions
+  - 📱 Mobile App
+  - 🌐 Website / Documentation
+  - 🧠 Binaural Beats / Neuroscience
+  - 📉 Analytics / Productivity
+  - 🚀 Performance / Optimization
+  - 🔄 Sync / Integration
+  - 🎮 Gamification / Motivation
+  - 🌍 Community / Social
+  - 📊 Other
     validations:
       required: true
 
   - type: dropdown
     id: priority
     attributes:
-      label: Prioridade (na sua opinião)
-      description: Quão importante é esta feature para você?
+  label: Priority (in your opinion)
+  description: How important is this feature to you?
       options:
         - 🔴 Must-have - Crucial para meu workflow
         - 🟠 High - Melhoraria muito minha experiência
@@ -50,20 +50,20 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: 📝 Problema ou Necessidade
-      description: Que problema esta feature resolveria? Ou que necessidade atenderia?
+      label: 📝 Problem or Need
+      description: What problem would this feature solve? Or what need would it address?
       placeholder: |
-        Ex. "Quando estou codando JavaScript, gostaria de ter faixas mais rápidas que se adaptem ao meu ritmo de digitação..."
+        Ex. "When I'm coding JavaScript, I'd like faster tracks that adapt to my typing rhythm..."
         
-        Ou: "Como desenvolvedor que trabalha em equipe, preciso de uma forma de sincronizar sessões de foco com meus colegas..."
+        Or: "As a developer working in a team, I need a way to synchronize focus sessions with my colleagues..."
     validations:
       required: true
 
   - type: textarea
     id: solution
     attributes:
-      label: ✨ Solução Proposta
-      description: Como você imagina que essa feature funcionaria?
+  label: ✨ Proposed Solution
+  description: How do you imagine this feature would work?
       placeholder: |
         Descreva sua ideia em detalhes:
         - Como o usuário interagiria com ela?
@@ -77,18 +77,18 @@ body:
   - type: textarea
     id: alternatives
     attributes:
-      label: 🔄 Alternativas Consideradas
-      description: Você pensou em outras formas de resolver este problema?
+      label: 🔄 Alternatives Considered
+      description: Have you considered other ways to solve this problem?
       placeholder: |
-        - Tentou alguma solução temporária?
-        - Conhece alguma ferramenta que faz algo similar?
-        - Tem outras ideias de implementação?
+        - Did you try any temporary solutions?
+        - Do you know any tool that does something similar?
+        - Do you have other implementation ideas?
 
   - type: dropdown
     id: user-type
     attributes:
-      label: 👤 Tipo de Desenvolvedor
-      description: Como você se identifica? (para entendermos melhor seu use case)
+  label: 👤 Developer Type
+  description: How do you identify? (to better understand your use case)
       options:
         - Frontend Developer
         - Backend Developer
@@ -108,8 +108,8 @@ body:
   - type: dropdown
     id: languages
     attributes:
-      label: 💻 Linguagens Principais
-      description: Que linguagens você usa mais? (múltipla escolha nas descrições)
+  label: 💻 Primary Languages
+  description: Which languages do you use the most? (multiple-choice in descriptions)
       options:
         - JavaScript / TypeScript
         - Python
@@ -134,81 +134,81 @@ body:
   - type: input
     id: team-size
     attributes:
-      label: 👥 Tamanho da Equipe
-      description: Você trabalha sozinho ou em equipe? Quantas pessoas?
-      placeholder: Ex. "Solo", "2-5 pessoas", "10+ pessoas"
+  label: 👥 Team Size
+  description: Do you work alone or in a team? How many people?
+  placeholder: Ex. "Solo", "2-5 people", "10+ people"
 
   - type: textarea
     id: use-cases
     attributes:
-      label: 🎯 Casos de Uso Detalhados
-      description: Em que situações específicas você usaria esta feature?
+      label: 🎯 Detailed Use Cases
+      description: In which specific situations would you use this feature?
       placeholder: |
-        Ex. "Durante sessões de debugging longas..."
-        Ex. "Quando estou fazendo pair programming..."
-        Ex. "Nos últimos 30 minutos antes de um deadline..."
+        Ex. "During long debugging sessions..."
+        Ex. "When I'm doing pair programming..."
+        Ex. "In the last 30 minutes before a deadline..."
         
-        Quanto mais específico, melhor!
+        The more specific, the better!
     validations:
       required: true
 
   - type: textarea
     id: mockups
     attributes:
-      label: 🎨 Mockups ou Wireframes
-      description: Tem alguma ideia visual? Cole links para imagens ou descreva a interface
+      label: 🎨 Mockups or Wireframes
+      description: Do you have any visual idea? Paste links to images or describe the interface
       placeholder: |
-        - Links para mockups (Figma, etc.)
-        - Screenshots de referências
-        - Descrição textual da UI
-        - Fluxo de interação do usuário
+        - Links to mockups (Figma, etc.)
+        - Reference screenshots
+        - Textual description of the UI
+        - User interaction flow
 
   - type: textarea
     id: technical-notes
     attributes:
-      label: 🔧 Considerações Técnicas
-      description: (Opcional) Alguma ideia sobre implementação técnica?
+      label: 🔧 Technical Considerations
+      description: (Optional) Any ideas about technical implementation?
       placeholder: |
-        - APIs que poderiam ser usadas
-        - Integrações necessárias
-        - Preocupações de performance
-        - Considerações de privacidade
+        - APIs that could be used
+        - Required integrations
+        - Performance concerns
+        - Privacy considerations
 
   - type: textarea
     id: success-metrics
     attributes:
-      label: 📈 Métricas de Sucesso
-      description: Como saberemos que esta feature foi bem-sucedida?
+      label: 📈 Success Metrics
+      description: How will we know this feature was successful?
       placeholder: |
-        - Como você mediria o sucesso desta feature?
-        - Que comportamento você esperaria ver?
-        - Que feedback indicaria que está funcionando bem?
+        - How would you measure this feature's success?
+        - What behavior would you expect to see?
+        - What feedback would indicate it's working well?
 
   - type: dropdown
     id: contribution
     attributes:
-      label: 🤝 Disposição para Contribuir
-      description: Você gostaria de ajudar a implementar esta feature?
+      label: 🤝 Willingness to Contribute
+      description: Would you like to help implement this feature?
       options:
-        - 🙋 Sim! Posso ajudar com código
-        - 🎨 Sim! Posso ajudar com design/UX
-        - 🔬 Sim! Posso ajudar com testes/pesquisa
-        - 📝 Sim! Posso ajudar com documentação
-        - 📋 Sim! Posso dar feedback durante desenvolvimento
-        - 🙄 Não tenho tempo no momento
-        - 🤷 Não sei como ajudar, mas gostaria de aprender
+        - 🙋 Yes! I can help with code
+        - 🎨 Yes! I can help with design/UX
+        - 🔬 Yes! I can help with testing/research
+        - 📝 Yes! I can help with documentation
+        - 📋 Yes! I can provide feedback during development
+        - 🙄 I don't have time right now
+        - 🤷 I don't know how to help, but I'd like to learn
 
   - type: checkboxes
     id: terms
     attributes:
       label: Checklist
-      description: Por favor, confirme que você:
+      description: Please confirm that you:
       options:
-        - label: Pesquisei por feature requests similares e não encontrei duplicatas
+        - label: I searched for similar feature requests and found no duplicates
           required: true
-        - label: Li o [roadmap do projeto](../IMPLEMENTATION_ROADMAP.md) para ver se não está já planejado
+        - label: I read the [project roadmap](../IMPLEMENTATION_ROADMAP.md) to see if it's not already planned
           required: false
-        - label: Entendo que esta é uma sugestão e pode não ser implementada
+        - label: I understand this is a suggestion and may not be implemented
           required: true
-        - label: Estou disposto(a) a participar de discussões sobre esta feature
+        - label: I am willing to participate in discussions about this feature
           required: true

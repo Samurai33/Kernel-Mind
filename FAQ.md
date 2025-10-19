@@ -1,274 +1,253 @@
-# ❓ FAQ - KernelMind
+# FAQ – KernelMind
 
-## 🎵 Sobre o Álbum
-
-### O que é KernelMind?
-KernelMind é um álbum instrumental desenvolvido especificamente para desenvolvedores de software. Combina música ambiente/eletrônica com batidas binaurais cientificamente informadas para potencialmente melhorar foco e produtividade durante sessões de coding.
-
-### Por que foco em desenvolvedores?
-Desenvolvedores enfrentam desafios únicos: necessidade de foco profundo, multitasking constante, debugging complexo e longas sessões de trabalho mental. O álbum usa metáforas de sistemas operacionais (kernel, threads, memory management) que ressoam com a experiência diária dos devs.
-
-### Quantas faixas tem o álbum?
-O álbum contém **9 faixas**, cada uma representando um estado ou processo diferente:
-1. Boot Kernel - Inicialização
-2. Interrupt Handler - Gerenciamento de interrupções  
-3. Overclock - Alta performance
-4. Kernel Panic - Resolução de problemas críticos
-5. Trace Stack - Debugging profundo
-6. Memory Leak - Reflexão e recovery
-7. Deadlock - Persistência em problemas complexos
-8. Garbage Collector - Organização mental
-9. Reboot Sequence - Renovação e restart
-
-### Qual a duração total?
-Aproximadamente **45-50 minutos**, com faixas individuais entre 4-7 minutos cada, ideal para sessões de foco ou uso com técnica Pomodoro.
+This document answers the most common questions about the KernelMind project — its concept, music, technology, research, and community.
 
 ---
 
-## 🧠 Sobre Batidas Binaurais
+## 1. About the Album
 
-### O que são batidas binaurais?
-Batidas binaurais são um fenômeno auditivo onde dois tons de frequências ligeiramente diferentes são apresentados separadamente para cada ouvido. Seu cérebro processa a diferença criando uma terceira "batida" que pode influenciar ondas cerebrais.
+### 1.1 What is KernelMind?
+KernelMind is an **instrumental album** developed specifically for **software developers**. It combines **ambient/electronic music** with **scientifically informed binaural beats** to help improve focus and productivity during long coding sessions.
 
-### Como funcionam?
-Quando você ouve 220Hz no ouvido esquerdo e 235Hz no direito, seu cérebro detecta a diferença de 15Hz e pode "sincronizar" com essa frequência, potencialmente induzindo estados mentais associados a ondas cerebrais de 15Hz (foco e atenção).
+### 1.2 Why focus on developers?
+Developers face unique challenges: deep concentration, constant multitasking, and long problem-solving periods. The album uses operating system metaphors (kernel, threads, interrupts, memory management) that parallel the cognitive experience of programming.
 
-### Funciona para todo mundo?
-Não. Estudos mostram que aproximadamente 60-70% das pessoas respondem às batidas binaurais, com variação individual significativa. Fatores como idade, experiência musical e predisposição neurológica influenciam a resposta.
+### 1.3 How many tracks are there?
+The album includes **nine instrumental tracks**, each representing a different cognitive or system state:
+1. Boot Kernel — Initialization  
+2. Interrupt Handler — Context switching  
+3. Overclock — High performance  
+4. Kernel Panic — Failure recovery  
+5. Trace Stack — Deep debugging  
+6. Memory Leak — Reflection and decompression  
+7. System Idle — Rest and mental reset  
+8. Garbage Collector — Mental decluttering  
+9. Reboot Sequence — Renewal and restart  
 
-### É cientificamente comprovado?
-A pesquisa mostra resultados **mistos**. Alguns estudos demonstram benefícios para atenção e criatividade, outros não encontram efeitos significativos. Meta-análises recentes sugerem efeitos pequenos mas reais em algumas pessoas.
+**Total duration:** ~45–50 minutes (4–7 minutes per track), ideal for **focus sessions or Pomodoro cycles**.
 
-### É seguro?
-Sim, batidas binaurais são consideradas seguras para a maioria das pessoas. No entanto:
-- Evite se tiver histórico de epilepsia
-- Não use em volumes altos por períodos prolongados
-- Descontinue se sentir desconforto ou tontura
+### 1.4 Is it scientifically proven?
+Research on binaural beats shows **mixed results**. Some studies indicate improved concentration, creativity, or relaxation; others find no measurable effects. Meta‑analyses suggest **small but statistically significant improvements** in some individuals.
 
----
+### 1.5 Which headphones are best?
+- **Closed‑back**: Better isolation and stronger binaural effect.  
+- **Over‑ear**: More comfortable for long sessions.  
+- **Wired**: Avoids Bluetooth latency.  
+- **Recommended models**: Sony WH‑1000XM4, Audio‑Technica ATH‑M50x, Sennheiser HD 599.
 
-## 🎧 Uso e Aplicação
+### 1.6 Does it work for everyone?
+Not necessarily. About **30–40% of people** are non‑responders to binaural entrainment. However, the album’s **sound design and ambient layers** can still promote flow and focus even without the frequency effect.
 
-### Preciso usar fones de ouvido?
-**Sim, obrigatoriamente** para batidas binaurais. O efeito requer que cada ouvido receba frequências diferentes, impossível com speakers normais. Para uso casual sem o efeito binaural, speakers funcionam normalmente.
+### 1.7 Can I use it while programming?
+**Yes — it was designed for that.** The tracks avoid distracting melodies or vocals and maintain spectral balance optimized for background listening.
 
-### Que tipo de fones é melhor?
-- **Fechados**: Melhor isolamento, mais efetivos para binaurals
-- **Sobre-auriculares**: Conforto para longas sessões
-- **Com fio**: Evita latência do Bluetooth
-- **Exemplos**: Sony WH-1000XM4, Audio-Technica ATH-M50x, Sennheiser HD 599
+### 1.8 Is the audio high quality?
+- **Sample rate:** 48 kHz  
+- **Bit depth:** 24‑bit masters  
+- **Formats:** WAV, FLAC, MP3 320 kbps  
+- **Loudness:** −16 LUFS (preserves dynamic range)
 
-### Em que volume devo escutar?
-Volume **confortável para conversação**. Você deve conseguir manter uma conversa sem precisar gritar. Batidas binaurais funcionam melhor em volumes médio-baixos (aproximadamente 60-70dB).
+### 1.9 Do I need the app to listen?
+**No.** The album works perfectly on any streaming or playback platform (Spotify, Apple Music, etc.).  
+However, for true **binaural effects**, headphones are **mandatory**, since each ear must receive slightly different frequencies.
 
-### Posso usar enquanto programo?
-**Sim, foi projetado para isso!** As faixas são especificamente compostas para não competir com sua atenção ao código. Evite melodias muito complexas ou elementos que desviem foco.
+### 1.10 When will the app be released?
+Planned roadmap: **Q1 2025** for beta release and **Q2 2025** for public version.
 
-### Funciona para outros tipos de trabalho?
-Sim! Embora otimizado para desenvolvimento, pode ajudar em:
-- Design e trabalho criativo
-- Escrita e redação
-- Análise de dados
-- Estudos e pesquisa
-- Qualquer atividade que requeira foco prolongado
+### 1.11 Do you conduct your own research?
+Yes — active R&D includes:  
+- **Pilot study** with 100 developers (Q1 2025)  
+- **EEG validation** of the applied frequencies  
+- **Long‑term productivity study** (6 months)  
+- **Academic partnerships** with neuroscience labs  
 
----
+### 1.12 Do you publish results?
+Yes — KernelMind follows open‑science principles:  
+- **Full transparency** of results  
+- **Study preregistration**  
+- **Open data** whenever possible  
+- **Peer review** for validation  
 
-## 💻 Aplicativo e Tecnologia
+### 1.13 I don’t feel any effect — is that normal?
+Yes. Individual response varies. You may still benefit from the immersive sound atmosphere and rhythmic structure even without measurable binaural entrainment.
 
-### Existe um aplicativo?
-Sim! Estamos desenvolvendo um aplicativo web/mobile que:
-- Adapta BPM ao seu ritmo de digitação
-- Permite customizar frequências binaurais
-- Integra com IDEs populares (VS Code, JetBrains)
-- Trackea sua produtividade e tempo de foco
-
-### Quando o app será lançado?
-Planejamento atual: **Q1 2025** para versão beta, **Q2 2025** para lançamento completo.
-
-### Vai integrar com meu IDE?
-Sim! Plugins planejados para:
-- **VS Code** (extensão oficial)
-- **JetBrains IDEs** (IntelliJ, PyCharm, etc.)
-- **Sublime Text**
-- **Vim/Neovim** (via terminal integration)
-
-### Preciso do app para usar o álbum?
-**Não!** O álbum funciona perfeitamente em qualquer player (Spotify, Apple Music, etc.). O app adiciona features interativas, mas não é obrigatório.
-
----
-
-## 🎼 Aspectos Técnicos
-
-### Que gêneros musicais são usados?
-- **IDM** (Intelligent Dance Music)
-- **Ambient Techno**
-- **Glitch**
-- **Synthwave**
-- **Sound Design Cinematográfico**
-
-### Quais frequências binaurais são usadas?
-- **6 Hz (Theta)**: Reflexão profunda
-- **8-10 Hz (Alfa)**: Relaxamento focado  
-- **12-18 Hz (Beta)**: Atenção e concentração
-- **40 Hz (Gamma)**: Resolução de problemas
-
-### Posso usar para dormir?
-Apenas algumas faixas são apropriadas:
-- ✅ Memory Leak (6 Hz - relaxante)
-- ✅ Trace Stack (8 Hz - contemplativo)
-- ❌ Overclock (18 Hz - muito estimulante)
-- ❌ Kernel Panic (40 Hz - alta energia)
-
-### O áudio é de alta qualidade?
-- **Sample Rate**: 48kHz
-- **Bit Depth**: 24-bit (masters)
-- **Formatos**: WAV, FLAC, MP3 320kbps
-- **Loudness**: -16 LUFS (preserva dinâmica)
+### 1.14 I feel discomfort or dizziness.
+Stop immediately and:  
+1. Lower the playback volume.  
+2. Take a 30‑minute break.  
+3. Try tracks with lower frequencies (6–8 Hz).  
+4. If symptoms persist, consult a medical professional.
 
 ---
 
-## 💰 Comercial e Distribuição
+## 2. Technical Aspects
 
-### Quanto custa?
-**Álbum completo**:
-- Streaming: Incluído em planos (Spotify, Apple Music)
-- Download: $9.99 (Bandcamp, site oficial)
-- Aplicativo: Freemium (básico grátis, premium $4.99/mês)
+### 2.1 What genres are used?
+- **IDM (Intelligent Dance Music)**  
+- **Ambient Techno**  
+- **Glitch**  
+- **Synthwave**  
+- **Cinematic Sound Design**  
 
-### Onde posso comprar/escutar?
-- **Streaming**: Spotify, Apple Music, YouTube Music, Deezer
-- **Download**: Bandcamp, site oficial, Amazon Music
-- **Físico**: Vinil limitado planejado para 2025
+### 2.2 Which binaural frequencies are applied?
+- **6 Hz (Theta):** Deep reflection and calm.  
+- **8–10 Hz (Alpha):** Relaxed concentration.  
+- **12–18 Hz (Beta):** Alert attention.  
+- **40 Hz (Gamma):** Cognitive integration and problem‑solving.
 
-### Tem versão gratuita?
-- **3 faixas grátis** no SoundCloud e YouTube
-- **Versão básica do app** com funcionalidades limitadas
-- **Período trial** de 7 dias para app premium
-
-### Posso usar comercialmente?
-**Uso pessoal**: Totalmente livre
-**Streamings/podcasts**: Requer licença
-**Empresas**: Licenciamento corporativo disponível
-**Modificação**: Permitida apenas para uso pessoal
+### 2.3 Can it be used for sleep?
+Partially — only the lower‑frequency tracks are appropriate:  
+✅ *Memory Leak* (6 Hz – relaxing)  
+✅ *Trace Stack* (8 Hz – contemplative)  
+❌ *Overclock* (18 Hz – stimulating)  
+❌ *Kernel Panic* (40 Hz – energizing)
 
 ---
 
-## 🚀 Comunidade e Suporte
+## 3. Commercial and Distribution
 
-### Como posso dar feedback?
-- **Email**: feedback@kernelmind.audio
-- **Discord**: [Servidor da comunidade]
-- **GitHub**: Issues e sugestões
-- **Twitter**: @kernelmind_music
+### 3.1 Pricing
+**Full album:**  
+- Streaming — included in standard subscriptions (Spotify, Apple Music).  
+- Download — $9.99 via Bandcamp or the official website.  
+- App — freemium model (basic = free; premium = $4.99 / month).
 
-### Existe uma comunidade?
-Sim! Comunidade ativa de desenvolvedores que usam KernelMind:
-- **Discord server** (500+ membros)
-- **Subreddit** r/KernelMind
-- **Telegram group** para usuários do app
+### 3.2 Where can I listen or buy?
+- **Streaming:** Spotify, Apple Music, YouTube Music, Deezer.  
+- **Download:** Bandcamp, official site, Amazon Music.  
+- **Physical:** Limited vinyl edition planned for 2025.
 
-### Posso contribuir para o projeto?
-Sim! Projeto é parcialmente open source:
-- **Feedback e testes**: Sempre bem-vindos
-- **App development**: Repositório GitHub público
-- **Traduções**: Ajuda com i18n
-- **Research**: Compartilhe estudos sobre produtividade
+### 3.3 Is there a free version?
+Yes:  
+- **Three free tracks** on SoundCloud and YouTube.  
+- **Basic app** with limited functionality.  
+- **7‑day trial** for the premium app tier.
 
-### Tem suporte técnico?
-- **FAQ**: Este documento (atualizado regularmente)
-- **Email**: support@kernelmind.audio
-- **Discord**: Canal #support
-- **Docs**: Documentação técnica completa online
+### 3.4 Can I use it commercially?
+- **Personal use:** Free.  
+- **Streaming/podcasts:** License required.  
+- **Corporate environments:** Enterprise licensing available.  
+- **Modifications:** Allowed only for personal, non‑commercial use.
 
 ---
 
-## 🔬 Pesquisa e Desenvolvimento
+## 4. Community and Support
 
-### Vocês fazem pesquisa própria?
-Sim! Planejamos:
-- **Estudo piloto** com 100 desenvolvedores (Q1 2025)
-- **EEG validation** das frequências implementadas
-- **Long-term productivity study** (6 meses)
-- **Parcerias com universidades**
+### 4.1 How can I provide feedback?
+- **Email:** feedback@kernelmind.audio  
+- **Discord:** Community server (link on site)  
+- **GitHub:** Issues and feature requests  
+- **X / Twitter:** @kernelmind_music  
 
-### Como posso participar de estudos?
-- Cadastre-se em nossa **newsletter research**
-- Junte-se ao **beta testing program**
-- Siga updates no **blog científico**
+### 4.2 Is there a community?
+Yes — a vibrant group of developers and listeners:  
+- Discord server (500 + members)  
+- Subreddit r/KernelMind  
+- Telegram group for app users  
 
-### Vocês publicam os resultados?
-Sim! Comprometemo-nos com:
-- **Transparência total** dos resultados
-- **Pre-registration** de estudos
-- **Open data** sempre que possível
-- **Peer review** quando viável
+### 4.3 Can I contribute?
+Yes — KernelMind encourages open collaboration:  
+- **Feedback & testing** through Discord or GitHub  
+- **App development** contributions on public repo  
+- **Translations** for localization (i18n)  
+- **Scientific collaboration** for focus studies
 
----
-
-## 🌟 Casos de Uso Específicos
-
-### Para diferentes linguagens de programação?
-**JavaScript/Web Dev**: Faixas 2, 3, 7 (ritmo rápido)
-**Python/Data Science**: Faixas 5, 8 (contemplativas) 
-**C++/Systems**: Faixas 4, 6 (debugging intenso)
-**Mobile Dev**: Faixas 1, 9 (ciclos build/deploy)
-
-### Para diferentes momentos do dia?
-**Manhã (9-12h)**: Boot Kernel → Overclock
-**Tarde (13-17h)**: Interrupt Handler → Trace Stack
-**Noite (18-22h)**: Memory Leak → Reboot Sequence
-
-### Para diferentes tipos de tarefa?
-**New features**: Faixas criativas (3, 5, 9)
-**Bug fixing**: Faixas analíticas (4, 5, 7)
-**Code review**: Faixas contemplativas (5, 8)
-**Refactoring**: Faixas organizacionais (7, 8)
+### 4.4 Is there technical support?
+- **FAQ:** This document (updated regularly)  
+- **Email:** support@kernelmind.audio  
+- **Discord:** #support channel  
+- **Documentation:** Full developer and user docs available online  
 
 ---
 
-## ❗ Troubleshooting
+## 5. Research and Development
 
-### Não sinto nenhum efeito. É normal?
-**Sim!** 30-40% das pessoas não respondem a batidas binaurais. Isso não significa que a música não pode ajudar - muitos usuários reportam benefícios do ambiente sonoro mesmo sem efeitos binaurais específicos.
+### 5.1 Do you conduct research?
+Yes — current initiatives include:  
+- **Pilot study** (100 developers, Q1 2025)  
+- **EEG validation** of neural entrainment  
+- **Longitudinal productivity** study (6 months)  
+- **University collaborations** with neuroscience and human‑factors labs
 
-### Sinto desconforto ou tontura
-**Pare imediatamente** e:
-1. Reduza o volume
-2. Faça uma pausa de 30 minutos
-3. Tente faixas com frequências mais baixas
-4. Se persistir, consulte um médico
+### 5.2 How can I participate?
+- Subscribe to the **research newsletter**  
+- Join the **beta testing program**  
+- Follow updates on the **KernelMind Blog**  
 
-### O efeito diminuiu com o tempo
-Normal! Isso chama-se **habituação**. Soluções:
-- Faça pausas de alguns dias
-- Alterne entre diferentes faixas
-- Varie o horário de uso
-- Combine com outras técnicas de foco
-
-### Funciona melhor em algumas horas?
-**Sim!** Ritmos circadianos influenciam responsividade:
-- **Manhã**: Melhor para frequências beta (foco)
-- **Tarde**: Bom para frequências mistas
-- **Noite**: Melhor para frequências alfa/theta (relaxamento)
+### 5.3 Will you publish results?
+Yes — we are committed to open‑science standards:  
+- Transparent reporting  
+- Study preregistration  
+- Open data sharing (when feasible)  
+- Peer‑reviewed publication  
 
 ---
 
-## 📞 Contato
+## 6. Use Cases
 
-**Website**: www.kernelmind.audio
-**Email geral**: hello@kernelmind.audio
-**Suporte**: support@kernelmind.audio
-**Imprensa**: press@kernelmind.audio
-**Parcerias**: partnerships@kernelmind.audio
+### 6.1 By programming language
+| Context | Recommended Tracks |
+|:---------|:-------------------|
+| **JavaScript / Web Dev** | 2, 3, 7 (energetic and rhythmic) |
+| **Python / Data Science** | 5, 8 (analytical and calm) |
+| **C++ / Systems** | 4, 6 (debug and intense focus) |
+| **Mobile Dev** | 1, 9 (cycles of build / deploy) |
 
-**Redes Sociais**:
-- Twitter: @kernelmind_music
-- Instagram: @kernelmind.audio
-- YouTube: KernelMind Channel
-- LinkedIn: KernelMind Project
+### 6.2 By time of day
+| Time | Suggested Sequence |
+|:------|:-------------------|
+| Morning (09–12h) | Boot Kernel → Overclock |
+| Afternoon (13–17h) | Interrupt Handler → Trace Stack |
+| Evening (18–22h) | Memory Leak → Reboot Sequence |
+
+### 6.3 By task type
+| Task | Suggested Tracks |
+|:------|:-----------------|
+| New Features | 3, 5, 9 (Creative) |
+| Bug Fixing | 4, 5, 7 (Analytical) |
+| Code Review | 5, 8 (Contemplative) |
+| Refactoring | 7, 8 (Organizational) |
 
 ---
 
-*FAQ atualizado regularmente. Última atualização: Outubro 2024*
-*Tem uma pergunta não respondida? Entre em contato conosco!*
+## 7. Troubleshooting
+
+### 7.1 I don’t feel any effect.
+Normal — sensitivity varies. Try changing volume, environment, or switching to lower‑frequency tracks.
+
+### 7.2 I feel discomfort or dizziness.
+Stop playback, reduce volume, take breaks, or change to a calmer track. If symptoms persist, seek medical advice.
+
+### 7.3 The effect decreased over time.
+That’s **habituation** — your brain adapts. Solutions:  
+- Take short breaks from listening.  
+- Rotate between different tracks.  
+- Listen at different times of day.  
+- Combine with other focus techniques (Pomodoro, mindfulness).
+
+### 7.4 Does it work better at certain times?
+Yes — **circadian rhythm** affects response:  
+- Morning → Beta range (12–18 Hz) = high focus.  
+- Afternoon → Mixed Alpha/Beta.  
+- Night → Alpha/Theta range (6–10 Hz) = relaxation.
+
+---
+
+## 8. Contact
+
+**Website:** www.kernelmind.audio  
+**General Email:** hello@kernelmind.audio  
+**Support:** support@kernelmind.audio  
+**Press:** press@kernelmind.audio  
+**Partnerships:** partnerships@kernelmind.audio  
+
+**Social Media:**  
+- X / Twitter: @kernelmind_music  
+- Instagram: @kernelmind.audio  
+- YouTube: KernelMind Channel  
+- LinkedIn: KernelMind Project  
+
+---
+
+*FAQ updated regularly — last revised October 2024.*  
+*For unanswered questions, please contact us at hello@kernelmind.audio.*

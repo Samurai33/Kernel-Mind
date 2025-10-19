@@ -1,260 +1,260 @@
 # 🎵 Producer.ai Prompts - KernelMind Album
 
-## 📋 Configurações Gerais
+## 📋 General Configuration
 
-### Template Base
+### Base Template
 ```
-Estilo: Instrumental IDM/Ambient Techno para desenvolvedores
-Duração: 4-6 minutos
-Instrumentos: Sintetizadores, pads ambientes, percussão glitch, efeitos digitais
-Estrutura: Intro (30s) → Build-up (1min) → Corpo principal (2-3min) → Resolução (1min)
-Mixagem: Dinâmica controlada, headroom para longas sessões
-Frequências: Espaço reservado em médios para batidas binaurais
-Campo estéreo: Amplo, com elementos posicionados espacialmente
+Style: Instrumental IDM/Ambient Techno for developers
+Duration: 4-6 minutes
+Instruments: Synthesizers, ambient pads, glitch percussion, digital effects
+Structure: Intro (30s) → Build-up (1min) → Main body (2-3min) → Resolution (1min)
+Mixing: Controlled dynamics, headroom for long sessions
+Frequencies: Reserved space in mids for binaural beats
+Stereo field: Wide, with spatially positioned elements
 ```
 
 ---
 
-## 🎼 Prompts Individuais por Faixa
+## 🎼 Individual Track Prompts
 
 ### 1️⃣ Boot Kernel
 ```
-PROMPT PRODUCER.AI:
+PRODUCER.AI PROMPT:
 
-Crie uma faixa instrumental chamada "Boot Kernel" com estas especificações:
+Create an instrumental track called "Boot Kernel" with these specifications:
 
-PARÂMETROS TÉCNICOS:
+TECHNICAL PARAMETERS:
 - BPM: 90
-- Tonalidade: Lá menor
-- Duração: 5 minutos
-- Gênero: Dark Ambient + Minimal Techno
+- Key: A minor
+- Duration: 5 minutes
+- Genre: Dark Ambient + Minimal Techno
 
-CONCEITO:
-Simulação sonora de um sistema operacional inicializando. Representa o despertar gradual da consciência de um desenvolvedor começando o trabalho.
+CONCEPT:
+Sonic simulation of an operating system booting up. Represents the gradual awakening of a developer's consciousness beginning work.
 
-ELEMENTOS SONOROS:
-- Drones graves (sub-bass) simulando energia se acumulando
-- Sons digitais de inicialização (beeps, clicks sutis)
-- Arpégios ascendentes lentos (como serviços carregando)
-- Texturas granulares representando bits de dados
-- Reverb longo para sensação de espaço digital
+SOUND ELEMENTS:
+- Deep drones (sub-bass) simulating accumulating energy
+- Digital initialization sounds (beeps, subtle clicks)
+- Slow ascending arpeggios (like services loading)
+- Granular textures representing data bits
+- Long reverb for digital space sensation
 
-ESTRUTURA:
-0:00-0:30 - Silêncio + primeiros drones graves
-0:30-1:30 - Adição gradual de elementos digitais
-1:30-3:00 - Corpo principal com arpégios e pads
-3:00-4:30 - Desenvolvimento completo, sistema "online"
-4:30-5:00 - Estabilização em loop para transição
+STRUCTURE:
+0:00-0:30 - Silence + first deep drones
+0:30-1:30 - Gradual addition of digital elements
+1:30-3:00 - Main body with arpeggios and pads
+3:00-4:30 - Full development, system "online"
+4:30-5:00 - Loop stabilization for transition
 
-ATMOSFERA:
-Minimalista, contemplativo, mecânico mas orgânico. Sensação de despertar gradual e preparação mental para o trabalho.
+ATMOSPHERE:
+Minimalist, contemplative, mechanical yet organic. Sensation of gradual awakening and mental preparation for work.
 
-INSTRUÇÕES ESPECÍFICAS:
-- Use síntese subtrativa com filtros que abrem gradualmente
-- Incorpore samples de hardware vintage (diskettes, modems)
-- Mantenha baixa densidade até o minuto 2
-- Binaural beat sutil em 15Hz nos canais L/R
+SPECIFIC INSTRUCTIONS:
+- Use subtractive synthesis with gradually opening filters
+- Incorporate vintage hardware samples (floppy disks, modems)
+- Keep low density until minute 2
+- Subtle binaural beat at 15Hz in L/R channels
 ```
 
 ### 2️⃣ Interrupt Handler
 ```
-PROMPT PRODUCER.AI:
+PRODUCER.AI PROMPT:
 
-Crie "Interrupt Handler" - representando interrupções de sistema:
+Create "Interrupt Handler" - representing system interruptions:
 
-PARÂMETROS TÉCNICOS:
-- BPM: 102 (com variações 100-105)
-- Tonalidade: Ré menor
-- Duração: 4:30 minutos
-- Gênero: Glitch + IDM
+TECHNICAL PARAMETERS:
+- BPM: 102 (with variations 100-105)
+- Key: D minor
+- Duration: 4:30 minutes
+- Genre: Glitch + IDM
 
-CONCEITO:
-Multitasking mental - como o cérebro de um dev lida com múltiplas interrupções: emails, Slack, bugs urgentes, reuniões.
+CONCEPT:
+Mental multitasking — how a developer's brain handles multiple interruptions: emails, Slack, urgent bugs, meetings.
 
-ELEMENTOS SONOROS:
-- Padrões rítmicos irregulares e polirritmos
-- Glitches e stutters representando mudanças de contexto
-- Clocks e ticks como interrupts de hardware
-- Melodias fragmentadas que são cortadas e retomadas
-- Panning automático simulando atenção mudando de foco
+SOUND ELEMENTS:
+- Irregular rhythmic patterns and polyrhythms
+- Glitches and stutters representing context switches
+- Clocks and ticks like hardware interrupts
+- Fragmented melodies that are cut off and resumed
+- Automatic panning simulating attention shifting focus
 
-ESTRUTURA IRREGULAR:
-- Introdução estável (45s)
-- Primeira interrupção (break súbito + nova melodia)
-- Retorno ao tema + segunda interrupção  
-- Seção caótica (múltiplas interrupções sobrepostas)
-- Resolução onde todas as threads se sincronizam
+IRREGULAR STRUCTURE:
+- Stable introduction (45s)
+- First interruption (sudden break + new melody)
+- Return to theme + second interruption  
+- Chaotic section (multiple overlapping interruptions)
+- Resolution where all threads synchronize
 
-ATMOSFERA:
-Alerta, reativo, controladamente caótico. Sensação de lidar com urgências mantendo o foco principal.
+ATMOSPHERE:
+Alert, reactive, controllably chaotic. Sensation of handling urgencies while maintaining main focus.
 
-INSTRUÇÕES ESPECÍFICAS:
-- Use tempo rubato e mudanças súbitas de andamento
-- Incorpore elementos de cut-up/collage sonora
-- Gate effects para simular contexto switching
-- Binaural 16Hz para manter alertness
+SPECIFIC INSTRUCTIONS:
+- Use tempo rubato and sudden tempo changes
+- Incorporate cut-up/sound collage elements
+- Gate effects to simulate context switching
+- Binaural 16Hz to maintain alertness
 ```
 
 ### 3️⃣ Overclock
 ```
-PROMPT PRODUCER.AI:
+PRODUCER.AI PROMPT:
 
-Crie "Overclock" - estado de alta performance:
+Create "Overclock" - high performance state:
 
-PARÂMETROS TÉCNICOS:
-- BPM: 118 (alta energia)
-- Tonalidade: Mi menor
-- Duração: 4 minutos
-- Gênero: Synthwave + Fast IDM
+TECHNICAL PARAMETERS:
+- BPM: 118 (high energy)
+- Key: E minor
+- Duration: 4 minutes
+- Genre: Synthwave + Fast IDM
 
-CONCEITO:
-Flow state do desenvolvedor - quando tudo funciona perfeitamente e a produtividade está no máximo. Representa overclocking mental.
+CONCEPT:
+Developer flow state — when everything works perfectly and productivity is at maximum. Represents mental overclocking.
 
-ELEMENTOS SONOROS:
-- Saw waves agudas e penetrantes
-- Arpégios rápidos e precisos (16th notes)
-- Bass pulsante e driving
-- Leads sintéticos brilhantes
-- Distorção digital controlada (não agressiva)
-- Hi-hats acelerados
+SOUND ELEMENTS:
+- Sharp and penetrating saw waves
+- Fast and precise arpeggios (16th notes)
+- Pulsing and driving bass
+- Bright synthetic leads
+- Controlled digital distortion (not aggressive)
+- Accelerated hi-hats
 
-ESTRUTURA:
-0:00-0:30 - Build-up energético
-0:30-2:00 - Corpo principal em alta intensidade
-2:00-3:00 - Breakdown/bridge mais atmosférico
-3:00-4:00 - Final climático com todos elementos
+STRUCTURE:
+0:00-0:30 - Energetic build-up
+0:30-2:00 - Main body at high intensity
+2:00-3:00 - Breakdown/bridge more atmospheric
+3:00-4:00 - Climactic finale with all elements
 
-ATMOSFERA:
-Intensidade focada, energia produtiva, slight edge of controlled chaos. Sensação de estar "na zona".
+ATMOSPHERE:
+Focused intensity, productive energy, slight edge of controlled chaos. Feeling of being "in the zone".
 
-INSTRUÇÕES ESPECÍFICAS:
-- Mantenha energia constante sem ser fatigante
-- Use compressão sidechain sutil no bass
-- Filtros que abrem durante os builds
-- Binaural 18Hz (transição beta/gamma)
-- Adicione subtle pitch bends para "instabilidade" controlada
+SPECIFIC INSTRUCTIONS:
+- Maintain constant energy without being fatiguing
+- Use subtle sidechain compression on bass
+- Filters that open during builds
+- Binaural 18Hz (beta/gamma transition)
+- Add subtle pitch bends for controlled "instability"
 ```
 
 ### 4️⃣ Kernel Panic
 ```
-PROMPT PRODUCER.AI:
+PRODUCER.AI PROMPT:
 
-Crie "Kernel Panic" - falha crítica do sistema:
+Create "Kernel Panic" - critical system failure:
 
-PARÂMETROS TÉCNICOS:
-- BPM: 82 (mais lento, pesado)
-- Tonalidade: Fá# menor
-- Duração: 5:30 minutos
-- Gênero: Dark IDM + Industrial Ambient
+TECHNICAL PARAMETERS:
+- BPM: 82 (slower, heavy)
+- Key: F# minor
+- Duration: 5:30 minutes
+- Genre: Dark IDM + Industrial Ambient
 
-CONCEITO:
-O momento quando tudo para de funcionar - bug crítico, sistema crash, blue screen mental. Representa o stress e o processo de debugging.
+CONCEPT:
+The moment when everything stops working - critical bug, system crash, mental blue screen. Represents stress and debugging process.
 
-ELEMENTOS SONOROS:
-- Ruído digital harsh (mas controlado)
-- Error beeps e system alerts
-- Melodias fragmentadas e distorcidas
-- Bass distorcido e ameaçador
-- Texturas de noise branco filtradas
-- Samples de error messages processados
+SOUND ELEMENTS:
+- Harsh digital noise (but controlled)
+- Error beeps and system alerts
+- Fragmented and distorted melodies
+- Distorted and threatening bass
+- Filtered white noise textures
+- Processed error message samples
 
-ESTRUTURA DRAMÁTICA:
-0:00-1:00 - Início normal que gradualmente corrompe
-1:00-1:30 - "Crash" súbito - caos sonoro
-1:30-3:30 - Exploração do problema (debugging)
-3:30-4:30 - Tentativas de solução (builds e drops)
-4:30-5:30 - Resolução gradual + recovery
+DRAMATIC STRUCTURE:
+0:00-1:00 - Normal start that gradually corrupts
+1:00-1:30 - Sudden "crash" - sonic chaos
+1:30-3:30 - Problem exploration (debugging)
+3:30-4:30 - Solution attempts (builds and drops)
+4:30-5:30 - Gradual resolution + recovery
 
-ATMOSFERA:
-Tenso mas focado, urgente mas metódico. Stress controlado do debugging.
+ATMOSPHERE:
+Tense but focused, urgent but methodical. Controlled stress of debugging.
 
-INSTRUÇÕES ESPECÍFICAS:
-- Use bit crushing e distorção digital
-- Incorpore reversed reverbs para tensão
-- Dynamics extremas (quiet/loud contrasts)  
-- Binaural 40Hz para foco intenso na solução
-- Inclua momentos de silêncio sudden para impacto
+SPECIFIC INSTRUCTIONS:
+- Use bit crushing and digital distortion
+- Incorporate reversed reverbs for tension
+- Extreme dynamics (quiet/loud contrasts)  
+- Binaural 40Hz for intense solution focus
+- Include sudden silence moments for impact
 ```
 
 ### 5️⃣ Trace Stack
 ```
-PROMPT PRODUCER.AI:
+PRODUCER.AI PROMPT:
 
-Crie "Trace Stack" - deep debugging meditation:
+Create "Trace Stack" - deep debugging meditation:
 
-PARÂMETROS TÉCNICOS:
-- BPM: 75 (contemplativo)
-- Tonalidade: Dó menor
-- Duração: 6 minutos
-- Gênero: Deep Ambient + Minimal Techno
+TECHNICAL PARAMETERS:
+- BPM: 75 (contemplative)
+- Key: C minor
+- Duration: 6 minutes
+- Genre: Deep Ambient + Minimal Techno
 
-CONCEITO:
-O processo meditativo de seguir a stack trace - investigação profunda, paciência, metodologia. Como um detetive seguindo pistas.
+CONCEPT:
+The meditative process of following the stack trace - deep investigation, patience, methodology. Like a detective following clues.
 
-ELEMENTOS SONOROS:
-- Pads etéreos e envolventes
-- Melodias ecoantes (long delays)
-- Percussão minimalista e espaçada
-- Texturas granulares sutis
+SOUND ELEMENTS:
+- Ethereal and enveloping pads
+- Echoing melodies (long delays)
+- Minimalist and spaced percussion
+- Subtle granular textures
 - Ambient washes
-- Elementos de found sound (typing, mouse clicks processados)
+- Found sound elements (typing, processed mouse clicks)
 
-ESTRUTURA CONTEMPLATIVA:
-0:00-1:30 - Estabelecimento do mood contemplativo
-1:30-3:00 - Introdução da investigação (melodia principal)
-3:00-4:30 - Aprofundamento (layers adicionais)
-4:30-6:00 - Insight/revelação + resolução
+CONTEMPLATIVE STRUCTURE:
+0:00-1:30 — Establish the contemplative mood
+1:30-3:00 — Introduce the investigation (main melody)
+3:00-4:30 — Deepening (additional layers)
+4:30-6:00 — Insight/revelation + resolution
 
-ATMOSFERA:
-Paciente, introspectivo, focado mas relaxado. Sensação de mergulhar fundo no problema.
+ATMOSPHERE:
+Patient, introspective, focused but relaxed. A sense of diving deep into the problem.
 
-INSTRUÇÕES ESPECÍFICAS:
-- Muito espaço entre elementos
-- Reverbs longos e halls
-- Filtros que se movem lentamente
-- Binaural 8Hz (alpha) para introspecção
-- Use delays dotted eighth para complexidade rítmica sutil
+SPECIFIC INSTRUCTIONS:
+- Plenty of space between elements
+- Long reverbs and halls
+- Slowly moving filters
+- Binaural 8Hz (alpha) for introspection
+- Use dotted-eighth delays for subtle rhythmic complexity
 ```
 
 ### 6️⃣ Memory Leak
 ```
 PROMPT PRODUCER.AI:
 
-Crie "Memory Leak" - vazamento gradual de recursos:
+Create "Memory Leak" — gradual resource leakage:
 
-PARÂMETROS TÉCNICOS:
-- BPM: 70 (bem lento)
-- Tonalidade: Sol menor
-- Duração: 7 minutos
-- Gênero: Drone Ambient + Minimal
+TECHNICAL PARAMETERS:
+- BPM: 70 (very slow)
+- Key: G minor
+- Duration: 7 minutes
+- Genre: Drone Ambient + Minimal
 
-CONCEITO:
-Representação sonora de recursos mentais lentamente se esgotando. Meditação sobre o cansaço gradual e a necessidade de renewal.
+CONCEPT:
+Sound representation of mental resources slowly being depleted. A meditation on gradual fatigue and the need for renewal.
 
-ELEMENTOS SONOROS:
-- Texturas granulares que se degradam
-- Loops que gradualmente perdem elementos
-- Bass pulse muito lento e profundo
-- Elementos que aparecem e desaparecem
-- White noise filtrado
-- Samples em degradação (bit rate reduction gradual)
+SOUND ELEMENTS:
+- Granular textures that degrade over time
+- Loops that progressively lose elements
+- Very slow, deep bass pulse
+- Elements that appear and disappear
+- Filtered white noise
+- Samples degrading over time (gradual bitrate reduction)
 
-ESTRUTURA DE DEGRADAÇÃO:
-0:00-2:00 - Estado inicial "completo"
-2:00-4:00 - Primeira degradação sutil
-4:00-5:30 - Perda mais evidente de elementos
-5:30-6:30 - Estado mínimo/crítico
-6:30-7:00 - Fade out completo ou restart hint
+DEGRADATION STRUCTURE:
+- 0:00-2:00 — Full/initial state
+- 2:00-4:00 — First subtle degradation
+- 4:00-5:30 — Noticeable loss of elements
+- 5:30-6:30 — Minimal/critical state
+- 6:30-7:00 — Full fade-out or restart hint
 
-ATMOSFERA:
-Meditativo mas com leve tensão, awareness da perda gradual, mindful do processo.
+ATMOSPHERE:
+Meditative with slight tension; awareness of gradual loss; mindful of the process.
 
-INSTRUÇÕES ESPECÍFICAS:
-- Use automation para removal gradual de frequências
-- Loops que encurtam ou perdem layers com o tempo
-- Volume geral que decresce sutilmente
-- Binaural 6Hz (theta) para reflexão profunda
-- Inclua momentos de "garbage collection" (limpezas súbitas)
+SPECIFIC INSTRUCTIONS:
+- Use automation to gradually remove frequency bands
+- Loops that shorten or lose layers over time
+- Overall level slowly decreases
+- Binaural 6Hz (theta) for deep reflection
+- Include occasional "garbage collection" moments (sudden clean-ups)
 ```
 
 ### 7️⃣ Deadlock
@@ -263,115 +263,115 @@ PROMPT PRODUCER.AI:
 
 Crie "Deadlock" - estado de espera circular:
 
-PARÂMETROS TÉCNICOS:
-- BPM: 98 (steady, persistente)
-- Tonalidade: Si menor  
-- Duração: 5 minutos
-- Gênero: Minimal Techno + Loop Music
+TECHNICAL PARAMETERS:
+- BPM: 98 (steady, persistent)
+- Key: B minor
+- Duration: 5 minutes
+- Genre: Minimal Techno + Loop Music
 
-CONCEITO:
-Threads esperando umas pelas outras infinitamente. Padrões que se entrelaçam mas nunca resolvem - até que um breakthrough acontece.
+CONCEPT:
+Threads waiting for each other indefinitely. Interlocking patterns that never resolve — until a breakthrough occurs.
 
-ELEMENTOS SONOROS:
-- Padrões rítmicos interlocking
-- Melodias circulares que se perseguem
-- Polyrhythms que criam tensão
-- Elementos que quase se sincronizam mas não conseguem
-- Build-ups que não resolvem (até o final)
+SOUND ELEMENTS:
+- Interlocking rhythmic patterns
+- Circular melodies that chase each other
+- Polyrhythms that create tension
+- Elements that almost sync but fail to do so
+- Build-ups that do not resolve (until the end)
 
-ESTRUTURA CIRCULAR:
-0:00-1:00 - Estabelecimento dos loops
-1:00-2:30 - Adição de segundo pattern conflitante
-2:30-4:00 - Tensão máxima, quase-resoluções
-4:00-4:45 - Breakthrough súbito
-4:45-5:00 - Resolução e sincronização
+CIRCULAR STRUCTURE:
+- 0:00-1:00 — Establishment of loops
+- 1:00-2:30 — Addition of a conflicting second pattern
+- 2:30-4:00 — Peak tension, near-resolutions
+- 4:00-4:45 — Sudden breakthrough
+- 4:45-5:00 — Resolution and synchronization
 
-ATMOSFERA:
-Persistente, ligeiramente frustrada, mas paciente. Sensação de saber que eventualmente haverá solução.
+ATMOSPHERE:
+Persistent, slightly frustrated, yet patient. A sense that a solution will eventually be found.
 
-INSTRUÇÕES ESPECÍFICAS:
-- Use patterns em time signatures diferentes sobrepostos
-- Phasing entre elementos similares
-- Builds que resetam para manter tensão
-- Binaural 15Hz para sustained attention
-- O breakthrough deve ser satisfying e sudden
+SPECIFIC INSTRUCTIONS:
+- Use patterns in overlapping time signatures
+- Phasing between similar elements
+- Builds that reset to maintain tension
+- Binaural 15Hz for sustained attention
+- The breakthrough should be satisfying and sudden
 ```
 
 ### 8️⃣ Garbage Collector
 ```
-PROMPT PRODUCER.AI:
+PRODUCER.AI PROMPT:
 
-Crie "Garbage Collector" - processo de limpeza do sistema:
+Create "Garbage Collector" - system cleanup process:
 
-PARÂMETROS TÉCNICOS:
-- BPM: 92 (eficiente, não muito rápido)
-- Tonalidade: Lá menor
-- Duração: 4:30 minutos
-- Gênero: Minimal House + Ambient Techno
+TECHNICAL PARAMETERS:
+- BPM: 92 (efficient, not too fast)
+- Key: A minor
+- Duration: 4:30 minutes
+- Genre: Minimal House + Ambient Techno
 
-CONCEITO:
-Limpeza sistemática, organização mental, eficiência. Como o feeling de organizar código, refatorar, limpar arquivos desnecessários.
+CONCEPT:
+Systematic cleanup, mental organization, efficiency. Like the feeling of organizing code, refactoring, cleaning unnecessary files.
 
-ELEMENTOS SONOROS:
-- Percussão filtrada (como sweeping sounds)  
-- White noise sweeps (limpeza)
-- Sequências organizadas e precisas
-- Hi-hats como brushing sounds
-- Melodias "limpas" e claras
-- Bass definido mas não overwhelming
+SOUND ELEMENTS:
+- Filtered percussion (like sweeping sounds)  
+- White noise sweeps (cleaning)
+- Organized and precise sequences
+- Hi-hats like brushing sounds
+- "Clean" and clear melodies
+- Defined bass but not overwhelming
 
-ESTRUTURA DE LIMPEZA:
-0:00-0:45 - Assessment inicial (scanning)
-0:45-2:00 - Processo de limpeza ativo
-2:00-3:00 - Organização/reorganização  
-3:00-4:00 - Verificação final
-4:00-4:30 - Estado limpo e organizado
+CLEANUP STRUCTURE:
+0:00-0:45 - Initial assessment (scanning)
+0:45-2:00 - Active cleanup process
+2:00-3:00 - Organization/reorganization  
+3:00-4:00 - Final verification
+4:00-4:30 - Clean and organized state
 
-ATMOSFERA:
-Satisfação de organização, eficiência, clareza mental renovada.
+ATMOSPHERE:
+Satisfaction of organization, efficiency, renewed mental clarity.
 
-INSTRUÇÕES ESPECÍFICAS:
-- Use filtros high-pass sweeps
-- Elementos bem quantizados (grid-perfect)
-- Compressão limpa, sem artifacts
+SPECIFIC INSTRUCTIONS:
+- Use high-pass filter sweeps
+- Well-quantized elements (grid-perfect)
+- Clean compression, no artifacts
 - Binaural 12Hz (beta/alpha border)
-- Inclua elementos de "antes e depois" sonoramente
+- Include "before and after" elements sonically
 ```
 
 ### 9️⃣ Reboot Sequence  
 ```
-PROMPT PRODUCER.AI:
+PRODUCER.AI PROMPT:
 
-Crie "Reboot Sequence" - reinicialização e renovação:
+Create "Reboot Sequence" - reinitialization and renewal:
 
-PARÂMETROS TÉCNICOS:
-- BPM: 65→90 (accelerando gradual)
-- Tonalidade: Ré menor → Ré maior (transformação)
-- Duração: 6:30 minutos  
-- Gênero: Progressive Ambient + Organic Techno
+TECHNICAL PARAMETERS:
+- BPM: 65→90 (gradual accelerando)
+- Key: D minor → D major (transformation)
+- Duration: 6:30 minutes  
+- Genre: Progressive Ambient + Organic Techno
 
-CONCEITO:
-Jornada completa: shutdown mental → rest → restart → return to full productivity. Renovação, fresh start, otimismo.
+CONCEPT:
+Complete journey: mental shutdown → rest → restart → return to full productivity. Renewal, fresh start, optimism.
 
-ELEMENTOS SONOROS:
-- Sub-bass profundo (shutdown phase)
-- Silêncios e space (rest period)
-- Elements gradualmente retornando
+SOUND ELEMENTS:
+- Deep sub-bass (shutdown phase)
+- Silences and space (rest period)
+- Elements gradually returning
 - Organic textures mixing with digital
-- Triumphant progression no final
+- Triumphant progression in the end
 - Natural sounds + synthesis hybrid
 
-ESTRUTURA DE RENASCIMENTO:
-0:00-1:30 - Shutdown (elementos sumindo)
-1:30-2:30 - Rest period (minimal, quase silêncio)
+REBIRTH STRUCTURE:
+0:00-1:30 - Shutdown (elements disappearing)
+1:30-2:30 - Rest period (minimal, almost silence)
 2:30-4:00 - Gradual awakening (elements returning)
 4:00-5:30 - Full operation restored
 5:30-6:30 - Optimistic future (major key resolution)
 
-ATMOSFERA:
+ATMOSPHERE:
 Renewal, hope, fresh energy, optimistic return to productivity.
 
-INSTRUÇÕES ESPECÍFICAS:
+SPECIFIC INSTRUCTIONS:
 - Harmonic progression from minor to major
 - BPM automation gradual throughout
 - Dynamic range extreme (quiet to full)
@@ -382,53 +382,53 @@ INSTRUÇÕES ESPECÍFICAS:
 
 ---
 
-## 🎛️ Configurações Gerais para Producer.ai
+## 🎛️ General Settings for Producer.ai
 
-### Instruções de Mix para Todas as Faixas:
+### Mixing Instructions for All Tracks:
 ```
 MIXING GUIDELINES:
-- Headroom: Manter -6dB peak para evitar fadiga
-- Stereo Width: Usar imagem stereo ampla, elementos posicionados
-- EQ: Deixar espaço em médios (1-3kHz) para binaural beats  
-- Compressão: Suave, preservar dinâmica natural
-- Reverb: Espacial, não muito wet
-- Delays: Sincronizados ao BPM, criando movimento
-- Automation: Filtros, panning, volume para manter interesse
+- Headroom: Maintain -6dB peak to avoid fatigue
+- Stereo Width: Use wide stereo image, positioned elements
+- EQ: Leave space in mids (1-3kHz) for binaural beats  
+- Compression: Gentle, preserve natural dynamics
+- Reverb: Spatial, not too wet
+- Delays: Synced to BPM, creating movement
+- Automation: Filters, panning, volume to maintain interest
 ```
 
-### Template de Instrumentação:
+### Instrumentation Template:
 ```
 LAYER STRUCTURE SUGGESTED:
-1. Sub-bass (30-80Hz) - Fundação
-2. Bass (80-200Hz) - Groove principal  
-3. Kick/Percussion (200Hz-2kHz) - Ritmo
-4. Pads/Atmosphere (500Hz-5kHz) - Textura
-5. Lead/Melody (1kHz-8kHz) - Foco principal
-6. High-frequency elements (5kHz+) - Brilho e air
-7. Effects/Automation - Movimento e interesse
+1. Sub-bass (30-80Hz) - Foundation
+2. Bass (80-200Hz) - Main groove  
+3. Kick/Percussion (200Hz-2kHz) - Rhythm
+4. Pads/Atmosphere (500Hz-5kHz) - Texture
+5. Lead/Melody (1kHz-8kHz) - Main focus
+6. High-frequency elements (5kHz+) - Brightness and air
+7. Effects/Automation - Movement and interest
 ```
 
 ---
 
-## 💡 Dicas Específicas para Producer.ai
+## 💡 Specific Tips for Producer.ai
 
-### Para Binaural Integration:
-- Reserve espaço espectral entre 10-50Hz para batidas binaurais
-- Use panning sutil L/R para criar diferenças de frequência
-- Evite máscaras nas frequências alvo das binaurals
+### For Binaural Integration:
+- Reserve spectral space between 10-50Hz for binaural beats
+- Use subtle L/R panning to create frequency differences
+- Avoid masks on binaural target frequencies
 
-### Para Foco em Desenvolvimento:
-- Evite elementos muito chamativos ou melódicos demais
-- Mantenha variedade suficiente para não ficar repetitivo
-- Priorize texturas sobre melodias óbvias
-- Use progressões harmônicas sutis mas satisfatórias
+### For Development Focus:
+- Avoid elements that are too flashy or overly melodic
+- Maintain sufficient variety to avoid repetition
+- Prioritize textures over obvious melodies
+- Use subtle but satisfying harmonic progressions
 
-### Para Longas Sessões:
-- Dynamics controladas (não muito quiet nem loud)
-- Avoid frequency buildup que cause fadiga
-- Include micro-variations para manter interesse subconsciente
+### For Long Sessions:
+- Controlled dynamics (not too quiet nor loud)
+- Avoid frequency buildup that causes fatigue
+- Include micro-variations to maintain subconscious interest
 - Plan for seamless looping capabilities
 
 ---
 
-*Use estes prompts como base e ajuste conforme necessário para cada faixa específica no Producer.ai*
+*Use these prompts as a base and adjust as necessary for each specific track in Producer.ai*

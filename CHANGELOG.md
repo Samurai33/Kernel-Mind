@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Custom binaural frequency mixer
 - Productivity analytics dashboard
 - Team collaboration features
-- Multi-language support (ES, FR, DE, JA, PT-BR)
+- Multi-language support (ES, FR, DE, JA)
 
 ### Changed
 - Improved audio compression for faster streaming

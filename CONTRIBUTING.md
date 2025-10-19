@@ -1,13 +1,13 @@
-# 🤝 Guia de Contribuição - KernelMind
+# 🤝 Contributing Guide — KernelMind
 
-Obrigado pelo interesse em contribuir com o KernelMind! Este documento contém diretrizes para diferentes tipos de contribuição.
+Thank you for your interest in contributing to KernelMind! This document contains guidelines for different types of contributions.
 
-## 📋 Tipos de Contribuição
+## 📋 Types of Contribution
 
-### 🎵 Produção Musical
-- **Feedback sobre faixas**: Teste as faixas em sessões de coding e compartilhe sua experiência
-- **Sugestões de melhorias**: Ajustes em BPM, frequências binaurais, estrutura
-- **Novas faixas**: Propostas para expansões do álbum
+### 🎵 Music Production
+- **Track feedback**: Test tracks during coding sessions and share your experience
+- **Improvement suggestions**: BPM adjustments, binaural frequencies, structure
+- **New tracks**: Proposals for album expansions
 
 ### 💻 Desenvolvimento
 - **Web App**: Frontend/backend para aplicativo interativo
@@ -20,7 +20,7 @@ Obrigado pelo interesse em contribuir com o KernelMind! Este documento contém d
 - **Revisão de literatura**: Atualizar base científica
 - **Metodologia**: Melhorar protocolos de teste
 
-### 📚 Documentação
+### 📚 Documentation
 - **Traduções**: i18n para outros idiomas
 - **Tutoriais**: Como usar o KernelMind efetivamente
 - **Exemplos**: Casos de uso específicos
@@ -31,9 +31,9 @@ Obrigado pelo interesse em contribuir com o KernelMind! Este documento contém d
 - **UI/UX**: Melhorias na interface do aplicativo
 - **Marketing materials**: Assets para divulgação
 
-## 🚀 Como Começar
+## 🚀 Getting Started
 
-### 1. Fork do Repositório
+### 1. Fork the repository
 ```bash
 # Clone seu fork
 git clone https://github.com/SEU_USERNAME/KernelMind.git
@@ -60,7 +60,7 @@ git checkout -b feature/nome-da-feature
 # Para bug fixes  
 git checkout -b fix/descricao-do-bug
 
-# Para documentação
+# For documentation
 git checkout -b docs/topico
 ```
 
@@ -79,7 +79,7 @@ type(scope): description
 ### Tipos
 - `feat`: Nova funcionalidade
 - `fix`: Correção de bug
-- `docs`: Documentação
+- `docs`: Documentation
 - `style`: Formatação, lint
 - `refactor`: Refatoração de código
 - `test`: Testes
@@ -96,25 +96,25 @@ test(integration): add IDE extension tests
 chore(deps): update dependencies
 ```
 
-## 🎵 Contribuições Musicais
+### 🎵 Music Contributions
 
-### Processo de Review
-1. **Demo Track**: Envie uma demo de 30-60 segundos
-2. **Concept Doc**: Explique o conceito e técnicas usadas
+### Review Process
+1. **Demo Track**: Submit a 30-60 second demo
+2. **Concept Doc**: Explain the concept and techniques used
 3. **Technical Specs**: BPM, key, frequencies, structure
-4. **Community Feedback**: Colete feedback da comunidade
-5. **Final Production**: Produção final após aprovação
+4. **Community Feedback**: Collect community feedback
+5. **Final Production**: Final production after approval
 
-### Critérios de Qualidade
-- **Frequências binaurais** implementadas corretamente
-- **BPM** adequado para foco/produtividade
-- **Duração** entre 4-7 minutos
-- **Mixing/Mastering** profissional (-16 LUFS target)
-- **Conceito** alinhado com metáforas de sistema operacional
+### Quality Criteria
+- **Binaural frequencies** implemented correctly
+- **BPM** suitable for focus/productivity
+- **Duration** between 4-7 minutes
+- **Mixing/Mastering** professional (-16 LUFS target)
+- **Concept** aligned with operating-system metaphors
 
 ## 💻 Contribuições de Código
 
-### Estrutura do Projeto
+### Project Structure
 ```
 KernelMind/
 ├── src/
@@ -127,11 +127,11 @@ KernelMind/
 └── tests/            # Test suite
 ```
 
-### Padrões de Código
+### Coding Standards
 - **JavaScript/TypeScript**: ESLint + Prettier
 - **Python**: PEP 8, Black formatter
-- **Testing**: 80%+ coverage obrigatória
-- **Documentation**: JSDoc/Sphinx para APIs
+- **Testing**: 80%+ coverage required
+- **Documentation**: JSDoc/Sphinx for APIs
 
 ### Pull Request Process
 1. **Issue First**: Crie issue descrevendo a proposta
@@ -145,7 +145,7 @@ KernelMind/
 - [ ] Código segue padrões estabelecidos
 - [ ] Testes passam (CI/CD)
 - [ ] Coverage mantém 80%+
-- [ ] Documentação atualizada
+- [ ] Documentation updated
 - [ ] Performance não degradada
 - [ ] Breaking changes documentadas
 
@@ -154,7 +154,7 @@ KernelMind/
 ### Research Guidelines
 - **Methodology**: Use métodos peer-reviewed
 - **Data**: Compartilhe datasets quando possível
-- **Reproducibility**: Código e análises reproduzíveis
+- **Reproducibility**: Reproducible code and analyses
 - **Ethics**: Siga diretrizes éticas para pesquisa com humanos
 
 ### Tipos de Estudos Aceitos
@@ -163,16 +163,16 @@ KernelMind/
 - **User Experience**: Surveys e estudos qualitativos
 - **Meta-analyses**: Revisões sistemáticas
 
-## 📚 Contribuições de Documentação
+## 📚 Documentation Contributions
 
 ### Padrões de Escrita
 - **Tom**: Técnico mas acessível
 - **Estrutura**: Use headers e listas para clareza
 - **Exemplos**: Inclua code samples e screenshots
-- **Links**: Referencie documentação oficial
+- **Links**: Reference official documentation
 
 ### Traduções
-- **Idiomas prioritários**: ES, FR, DE, JA, PT-BR
+- **Priority languages**: ES, FR, DE, JA
 - **Consistência**: Use glossário de termos técnicos
 - **Review**: Traduções passam por review nativo
 
@@ -213,19 +213,19 @@ Todos os contributors são reconhecidos em:
 - **Email**: contributors@kernelmind.audio
 
 ### Code of Conduct
-Este projeto segue nosso [Code of Conduct](CODE_OF_CONDUCT.md). Ao participar, você concorda em manter um ambiente respeitoso e inclusivo.
+This project follows our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you agree to maintain a respectful and inclusive environment.
 
 ### Office Hours
-- **Weekly Community Call**: Segundas, 19:00 UTC
-- **Music Review Sessions**: Quintas, 20:00 UTC
-- **Development Sync**: Sextas, 15:00 UTC
+- **Weekly Community Call**: Mondays, 19:00 UTC
+- **Music Review Sessions**: Thursdays, 20:00 UTC
+- **Development Sync**: Fridays, 15:00 UTC
 
 ---
 
-## 🙏 Obrigado!
+## 🙏 Thank you!
 
-Sua contribuição ajuda a tornar o KernelMind melhor para toda a comunidade de desenvolvedores. Seja bem-vindo(a) à nossa família de contributors!
+Your contribution helps make KernelMind better for the entire developer community. Welcome to our contributor community!
 
 ---
 
-*Para dúvidas sobre este guia, abra uma issue ou entre em contato via [Discord](discord-link)*
+*For questions about this guide, open an issue or reach out via [Discord](discord-link)*

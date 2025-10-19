@@ -1,95 +1,105 @@
-# 📜 Código de Conduta - KernelMind
+# 📜 Code of Conduct - KernelMind
 
-## 🎯 Nossa Promessa
+## 🎯 Our Promise
+### Investigation Process
+1. **Receipt**: Confirmation of receipt within 24 hours
+2. **Investigation**: Full and impartial review
+### 1. 🟡 Remediation
+**Community Impact**: Use of inappropriate language or other behavior considered unprofessional or unwanted in the community.
+**Consequence**: Private written warning from community leaders, providing clarity on the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
 
-Como membros, contribuidores e líderes, nos comprometemos a fazer da participação em nossa comunidade uma experiência livre de assédio para todos, independentemente de idade, tamanho corporal, deficiência visível ou invisível, etnia, características sexuais, identidade e expressão de gênero, nível de experiência, educação, status socioeconômico, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.
+*Version 1.0 - Last updated: October 2024*
+## 🎯 Our Promise (continued)
 
-Nos comprometemos a agir e interagir de maneiras que contribuam para uma comunidade aberta, acolhedora, diversa, inclusiva e saudável.
+As members, contributors, and leaders, we commit to making participation in our community harassment-free for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sexual characteristics, gender identity and expression, level of experience, education, socioeconomic status, nationality, personal appearance, race, religion, or sexual orientation.
 
-## 🌟 Nossos Padrões
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
-### Comportamentos que Contribuem para um Ambiente Positivo:
+## 🌟 Our Standards
 
-- 🤝 Demonstrar empatia e bondade com outras pessoas
-- 🎧 Respeitar opiniões, pontos de vista e experiências diferentes
-- 💬 Dar e aceitar feedback construtivo graciosamente
-- 🔄 Assumir responsabilidade e pedir desculpas aos afetados por nossos erros, aprendendo com a experiência
-- 🌱 Focar no que é melhor não apenas para nós como indivíduos, mas para a comunidade como um todo
-- 🎵 Valorizar diversidade de estilos musicais e abordagens técnicas
-- 🧠 Manter discussões científicas baseadas em evidências
+### Behaviors that Contribute to a Positive Environment:
 
-### Comportamentos Inaceitáveis:
+- 🤝 Demonstrate empathy and kindness to others
+- 🎧 Respect differing opinions, viewpoints, and experiences
+- 💬 Give and accept constructive feedback graciously
+- 🔄 Take responsibility and apologize to those affected by our mistakes, learning from the experience
+- 🌱 Focus on what is best not just for us as individuals, but for the community as a whole
+- 🎵 Value diversity of musical styles and technical approaches
+- 🧠 Keep scientific discussions evidence-based
 
-- ❌ Uso de linguagem ou imagens sexualizadas e atenção sexual indesejada
-- ❌ Trolling, comentários insultuosos ou depreciativos e ataques pessoais ou políticos
-- ❌ Assédio público ou privado
-- ❌ Publicar informações privadas de outros sem permissão explícita
-- ❌ Gatekeeping baseado em linguagem de programação, IDE ou ferramentas
-- ❌ Descartar pesquisas científicas sem base factual
-- ❌ Spam musical ou autopromoção excessiva
-- ❌ Outros comportamentos que poderiam ser considerados inadequados em um ambiente profissional
+### Unacceptable Behaviors:
 
-## 🛡️ Responsabilidades de Aplicação
+- ❌ Use of sexualized language or imagery and unwanted sexual attention
+- ❌ Trolling, insulting or derogatory comments, and personal or political attacks
+- ❌ Harassment, whether public or private
+- ❌ Publishing private information about others without explicit permission
+- ❌ Gatekeeping based on programming language, IDE, or tools
+- ❌ Dismissing scientific research without factual basis
+- ❌ Musical spam or excessive self-promotion
+- ❌ Other behavior that could be considered inappropriate in a professional setting
 
-Os líderes da comunidade são responsáveis por esclarecer e fazer cumprir nossos padrões de comportamento aceitável e tomarão ação corretiva apropriada e justa em resposta a qualquer comportamento que considerem inadequado, ameaçador, ofensivo ou prejudicial.
+## 🛡️ Enforcement Responsibilities
 
-Os líderes da comunidade têm o direito e a responsabilidade de remover, editar ou rejeitar comentários, commits, código, edições wiki, issues e outras contribuições que não estejam alinhadas com este Código de Conduta, e comunicarão os motivos das decisões de moderação quando apropriado.
+Community leaders are responsible for clarifying and enforcing acceptable behavior standards and will take appropriate and fair corrective action in response to any behavior they deem unacceptable, threatening, offensive, or harmful.
 
-## 📍 Escopo
+Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned with this Code of Conduct, and to communicate the reasons for moderation decisions when appropriate.
 
-Este Código de Conduta se aplica em todos os espaços da comunidade, e também se aplica quando um indivíduo está representando oficialmente a comunidade em espaços públicos. Exemplos de representar nossa comunidade incluem:
+## 📍 Scope
 
-- 💻 Usar um endereço de e-mail oficial
-- 📱 Postar através de uma conta oficial de mídia social
-- 🎤 Atuar como representante designado em um evento online ou offline
-- 🎵 Performances ou apresentações usando música do KernelMind
-- 🔬 Apresentações de pesquisa relacionada ao projeto
+This Code of Conduct applies to all community spaces and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include:
 
-## ⚖️ Aplicação
+- 💻 Using an official email address
+- 📱 Posting via an official social media account
+- 🎤 Acting as a designated representative at an online or offline event
+- 🎵 Performances or presentations using KernelMind music
+- 🔬 Research presentations related to the project
 
-### Reportando Violações
+## ⚖️ Enforcement
 
-Instâncias de comportamento abusivo, de assédio ou de outra forma inaceitável podem ser reportadas aos líderes da comunidade responsáveis pela aplicação:
+### Reporting Violations
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement:
 
 - **Email**: conduct@kernelmind.audio
-- **Discord**: Mensagem privada para @moderators
-- **Formulário anônimo**: [link para formulário]
+- **Discord**: Private message to @moderators
+- **Anonymous form**: [link to form]
 
-### Processo de Investigação
+### Investigation Process
 
-1. **Recebimento**: Confirmação de recebimento em 24h
-2. **Investigação**: Revisão completa e imparcial
-3. **Decisão**: Ação apropriada determinada
-4. **Comunicação**: Resultado comunicado às partes envolvidas
-5. **Follow-up**: Monitoramento de implementação
+1. **Receipt**: Confirmation of receipt within 24 hours
+2. **Investigation**: Full and impartial review
+3. **Decision**: Appropriate action determined
+4. **Communication**: Outcome communicated to involved parties
+5. **Follow-up**: Implementation monitoring
 
-Todas as reclamações serão revisadas e investigadas prontamente e de forma justa. Todos os líderes da comunidade são obrigados a respeitar a privacidade e a segurança de quem reporta qualquer incidente.
+All complaints will be reviewed and investigated promptly and fairly. All community leaders are required to respect the privacy and safety of those reporting any incident.
 
-## 📋 Diretrizes de Aplicação
+## 📋 Enforcement Guidelines
 
-Os líderes da comunidade seguirão estas Diretrizes de Impacto da Comunidade ao determinar as consequências de qualquer ação que considerem violar este Código de Conduta:
+Community leaders will follow these Community Impact Guidelines when determining the consequences for any action they deem to violate this Code of Conduct:
 
-### 1. 🟡 Correção
-**Impacto da Comunidade**: Uso de linguagem inadequada ou outro comportamento considerado não profissional ou indesejado na comunidade.
+### 1. 🟡 Remediation
+**Community Impact**: Use of inappropriate language or other behavior considered unprofessional or unwanted in the community.
 
-**Consequência**: Aviso privado por escrito dos líderes da comunidade, fornecendo clareza sobre a natureza da violação e uma explicação de por que o comportamento foi inadequado. Um pedido de desculpas público pode ser solicitado.
+**Consequence**: Private written warning from community leaders, providing clarity on the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
 
-### 2. 🟠 Aviso
-**Impacto da Comunidade**: Violação através de um único incidente ou série de ações.
+### 2. 🟠 Warning
+**Community Impact**: Violation through a single incident or series of actions.
 
-**Consequência**: Aviso com consequências para comportamento contínuo. Nenhuma interação com as pessoas envolvidas, incluindo interação não solicitada com aqueles que aplicam o Código de Conduta, por um período especificado. Isso inclui evitar interações em espaços da comunidade, bem como canais externos como mídias sociais. Violar esses termos pode levar a um banimento temporário ou permanente.
+**Consequence**: Warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those who enforce the Code of Conduct, for a specified period. This includes avoiding interactions in community spaces as well as external channels such as social media. Violating these terms may lead to temporary or permanent ban.
 
-### 3. 🔴 Banimento Temporário
-**Impacto da Comunidade**: Violação séria dos padrões da comunidade, incluindo comportamento inadequado sustentado.
+### 3. 🔴 Temporary Ban
+**Community Impact**: Serious violation of community standards, including sustained inappropriate behavior.
 
-**Consequência**: Banimento temporário de qualquer tipo de interação ou comunicação pública com a comunidade por um período especificado. Nenhuma interação pública ou privada com as pessoas envolvidas, incluindo interação não solicitada com aqueles que aplicam o Código de Conduta, é permitida durante este período. Violar esses termos pode levar a um banimento permanente.
+**Consequence**: Temporary ban from any form of public interaction or communication with the community for a specified period. No public or private interaction with the people involved, including unsolicited interaction with those who enforce the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
 
-### 4. ⚫ Banimento Permanente
-**Impacto da Comunidade**: Demonstrar um padrão de violação dos padrões da comunidade, incluindo comportamento inadequado sustentado, assédio de um indivíduo ou agressão ou depreciação de classes de indivíduos.
+### 4. ⚫ Permanent Ban
+**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or denigration of protected classes.
 
-**Consequência**: Banimento permanente de qualquer tipo de interação pública dentro da comunidade.
+**Consequence**: Permanent ban from any form of public interaction within the community.
 
-## 🎵 Diretrizes Específicas para Música
+## 🎵 Specific Music Guidelines
 
 ### Feedback Construtivo
 - Critique técnicas e conceitos, não pessoas
@@ -97,7 +107,7 @@ Os líderes da comunidade seguirão estas Diretrizes de Impacto da Comunidade ao
 - Reconheça aspectos positivos junto com melhorias
 - Respeite diferentes gostos musicais e abordagens
 
-### Compartilhamento de Música
+### Music Sharing
 - Foque em contribuições relacionadas ao KernelMind
 - Evite spam de autopromoção
 - Credite colaboradores e samples apropriadamente
@@ -120,7 +130,7 @@ Os líderes da comunidade seguirão estas Diretrizes de Impacto da Comunidade ao
 ## 💻 Diretrizes para Desenvolvimento
 
 ### Code Review
-- Foque no código, não no desenvolvedor
+- Focus on the code, not the developer
 - Explique o "porquê" além do "o que"
 - Sugira alternativas quando possível
 - Reconheça bom trabalho e melhorias
@@ -128,7 +138,7 @@ Os líderes da comunidade seguirão estas Diretrizes de Impacto da Comunidade ao
 ### Discussões Técnicas
 - Mantenha discussões construtivas sobre trade-offs
 - Evite elitismo sobre linguagens/ferramentas
-- Seja paciente com desenvolvedores menos experientes
+- Be patient with less experienced developers
 - Compartilhe conhecimento abertamente
 
 ## 🌍 Inclusão e Diversidade
@@ -137,7 +147,7 @@ Os líderes da comunidade seguirão estas Diretrizes de Impacto da Comunidade ao
 - Acolher pessoas de todos os backgrounds
 - Promover diversidade em todas as formas de contribuição
 - Criar oportunidades para grupos sub-representados
-- Manter linguagem inclusiva em toda documentação
+- Maintain inclusive language in all documentation
 
 ### Acessibilidade
 - Considerar necessidades de acessibilidade em designs

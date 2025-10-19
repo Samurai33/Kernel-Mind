@@ -1,5 +1,5 @@
 name: 🐛 Bug Report
-description: Reporte um bug para nos ajudar a melhorar
+description: Report a bug to help us improve
 title: "[BUG] "
 labels: ["bug", "needs-triage"]
 assignees:
@@ -9,63 +9,63 @@ body:
   - type: markdown
     attributes:
       value: |
-        Obrigado por reportar este bug! Isso nos ajuda a melhorar o KernelMind para todos.
+        Thanks for reporting this bug! It helps us improve KernelMind for everyone.
         
-        👍 **Dica**: Antes de criar um novo issue, verifique se já existe um similar.
+        👍 **Tip**: Before creating a new issue, please check if a similar one already exists.
 
   - type: dropdown
     id: component
     attributes:
-      label: Componente Afetado
-      description: Qual parte do KernelMind está com problema?
+      label: Affected Component
+      description: Which part of KernelMind is affected?
       options:
-        - 🎵 Álbum Musical / Faixas de Áudio
-        - 💻 Aplicativo Web
+        - 🎵 Musical Album / Audio Tracks
+        - 💻 Web App
         - 🔌 IDE Extensions (VS Code, JetBrains, etc.)
-        - 📱 Aplicativo Móvel
-        - 🌐 Website / Documentação
-        - 🧠 Batidas Binaurais / Efeitos Neurais
-        - 🔑 Autenticação / Conta de Usuário
+        - 📱 Mobile App
+        - 🌐 Website / Documentation
+        - 🧠 Binaural Beats / Neural Effects
+        - 🔑 Authentication / User Account
         - 📉 Analytics / Tracking
-        - 🚀 Performance / Velocidade
-        - 🔄 Sincronização entre Dispositivos
-        - 🎮 Integração com IDEs
-        - 📊 Outro
+        - 🚀 Performance / Speed
+        - 🔄 Device Sync
+        - 🎮 IDE Integration
+        - 📊 Other
     validations:
       required: true
 
   - type: dropdown
     id: severity
     attributes:
-      label: Severidade
-      description: Quão impactante é este bug?
+      label: Severity
+      description: How impactful is this bug?
       options:
-        - 🔴 Critical - Aplicativo não funciona / Crash
-        - 🟠 High - Feature principal quebrada
-        - 🟡 Medium - Feature secundária com problemas
-        - 🟢 Low - Problema cosmético / UX menor
+        - 🔴 Critical - App unusable / Crash
+        - 🟠 High - Core feature broken
+        - 🟡 Medium - Secondary feature has issues
+        - 🟢 Low - Cosmetic issue / minor UX
     validations:
       required: true
 
   - type: textarea
     id: description
     attributes:
-      label: Descrição do Bug
-      description: Descreva claramente o que está acontecendo
-      placeholder: Ex. "Quando eu clico no botão Play, a música não começa e aparece um erro..."
+  label: Bug Description
+  description: Clearly describe what is happening
+  placeholder: Ex. "When I click the Play button, the music doesn't start and an error appears..."
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: Passos para Reproduzir
-      description: Como podemos reproduzir este problema?
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
       placeholder: |
-        1. Vá para '...'
-        2. Clique em '...'
-        3. Role para baixo até '...'
-        4. Veja o erro
+        1. Go to '...'
+        2. Click '...'
+        3. Scroll to '...'
+        4. Observe the error
       value: |
         1. 
         2. 
@@ -77,26 +77,26 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: Comportamento Esperado
-      description: O que você esperava que acontecesse?
-      placeholder: Ex. "A música deveria começar a tocar imediatamente..."
+  label: Expected Behavior
+  description: What did you expect to happen?
+  placeholder: Ex. "The music should start playing immediately..."
     validations:
       required: true
 
   - type: textarea
     id: actual
     attributes:
-      label: Comportamento Atual
-      description: O que realmente aconteceu?
-      placeholder: Ex. "Nada acontece e aparece um erro no console..."
+  label: Actual Behavior
+  description: What actually happened?
+  placeholder: Ex. "Nothing happens and an error appears in the console..."
     validations:
       required: true
 
   - type: dropdown
     id: browser
     attributes:
-      label: Navegador (se aplicável)
-      description: Qual navegador você estava usando?
+  label: Browser (if applicable)
+  description: Which browser were you using?
       options:
         - Chrome
         - Firefox
@@ -106,12 +106,14 @@ body:
         - Brave
         - Outro
         - N/A - Não é problema de navegador
+    - Other
+    - N/A - Not a browser issue
 
   - type: dropdown
     id: os
     attributes:
-      label: Sistema Operacional
-      description: Qual SO você está usando?
+  label: Operating System
+  description: Which OS are you using?
       options:
         - Windows 11
         - Windows 10
@@ -124,14 +126,15 @@ body:
         - Android
         - Outro Linux
         - Outro
+    - Other
     validations:
       required: true
 
   - type: dropdown
     id: ide
     attributes:
-      label: IDE/Editor (se aplicável)
-      description: Qual IDE você estava usando?
+  label: IDE/Editor (if applicable)
+  description: Which IDE were you using?
       options:
         - VS Code
         - IntelliJ IDEA
@@ -144,25 +147,26 @@ body:
         - Atom
         - Outro
         - N/A - Não estava usando IDE
+    - N/A - Not using an IDE
 
   - type: input
     id: version
     attributes:
-      label: Versão do KernelMind
-      description: Que versão você está usando? (Encontre em Configurações > Sobre)
-      placeholder: Ex. "1.2.3" ou "latest"
+  label: KernelMind Version
+  description: Which version are you using? (Find in Settings > About)
+  placeholder: Ex. "1.2.3" or "latest"
     validations:
       required: true
 
   - type: textarea
     id: console-logs
     attributes:
-      label: Logs / Mensagens de Erro
-      description: Cole aqui qualquer mensagem de erro ou logs relevantes
+      label: Logs / Error Messages
+      description: Paste any relevant error messages or logs here
       placeholder: |
-        Cole logs do console do navegador, terminal, ou arquivos de log.
+        Paste browser console logs, terminal output, or log files.
         
-        Para acessar console do navegador:
+        To access the browser console:
         - Chrome/Edge/Firefox: F12 > Console
         - Safari: Develop > Show JavaScript Console
       render: shell
@@ -170,25 +174,25 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: Contexto Adicional
-      description: Qualquer informação extra que possa ajudar
+      label: Additional Context
+      description: Any extra information that may help
       placeholder: |
-        - Há quanto tempo isso vem acontecendo?
-        - Acontece sempre ou esporadicamente?
-        - Você estava fazendo algo específico quando o bug aconteceu?
-        - Screenshots ou vídeos seriam muito úteis!
+        - How long has this been happening?
+        - Does it happen always or intermittently?
+        - Were you doing something specific when the bug occurred?
+        - Screenshots or videos are very helpful!
 
   - type: checkboxes
     id: terms
     attributes:
       label: Checklist
-      description: Por favor, confirme que você:
+      description: Please confirm that you:
       options:
-        - label: Pesquisei por issues similares e não encontrei duplicatas
+        - label: I searched for similar issues and found no duplicates
           required: true
-        - label: Testei com a última versão do KernelMind
+        - label: I tested with the latest KernelMind version
           required: true
-        - label: Li o [guia de troubleshooting](../FAQ.md#troubleshooting)
+        - label: I read the [troubleshooting guide](../FAQ.md#troubleshooting)
           required: false
-        - label: Estou disposto(a) a ajudar com testes adicionais se necessário
+        - label: I am willing to help with additional testing if needed
           required: false
