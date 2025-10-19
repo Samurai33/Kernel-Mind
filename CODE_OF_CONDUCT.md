@@ -101,43 +101,43 @@ Community leaders will follow these Community Impact Guidelines when determining
 
 ## 🎵 Specific Music Guidelines
 
-### Feedback Construtivo
-- Critique técnicas e conceitos, não pessoas
-- Ofereça sugestões específicas e acionáveis
-- Reconheça aspectos positivos junto com melhorias
-- Respeite diferentes gostos musicais e abordagens
+### Constructive Feedback
+- Critique techniques and concepts, not people
+- Offer specific, actionable suggestions
+- Acknowledge positives alongside suggestions for improvement
+- Respect different musical tastes and approaches
 
 ### Music Sharing
-- Foque em contribuições relacionadas ao KernelMind
-- Evite spam de autopromoção
-- Credite colaboradores e samples apropriadamente
-- Respeite direitos autorais e licenças
+- Focus on contributions related to KernelMind
+- Avoid excessive self-promotion
+- Credit collaborators and samples appropriately
+- Respect copyrights and licensing
 
-## 🔬 Diretrizes para Discussões Científicas
+## 🔬 Guidelines for Scientific Discussions
 
-### Debate Acadêmico Respeitoso
-- Base argumentos em evidências peer-reviewed
-- Acknowledge limitações e incertezas
-- Seja aberto a mudança de opinião com novas evidências
-- Evite cherry-picking de estudos que confirmam viés
+### Respectful Academic Debate
+- Base arguments on peer-reviewed evidence
+- Acknowledge limitations and uncertainties
+- Be open to changing your view with new evidence
+- Avoid cherry-picking studies that confirm bias
 
-### Compartilhamento de Pesquisa
-- Cite fontes apropriadamente
-- Declare conflitos de interesse
-- Seja transparente sobre metodologias
-- Respeite privacidade de participantes em estudos
+### Research Sharing
+- Cite sources appropriately
+- Declare conflicts of interest
+- Be transparent about methodologies
+- Respect participant privacy in studies
 
-## 💻 Diretrizes para Desenvolvimento
+## 💻 Development Guidelines
 
 ### Code Review
 - Focus on the code, not the developer
-- Explique o "porquê" além do "o que"
-- Sugira alternativas quando possível
-- Reconheça bom trabalho e melhorias
+- Explain the "why" in addition to the "what"
+- Suggest alternatives when possible
+- Acknowledge good work and improvements
 
-### Discussões Técnicas
-- Mantenha discussões construtivas sobre trade-offs
-- Evite elitismo sobre linguagens/ferramentas
+### Technical Discussions
+- Keep discussions constructive and focused on trade-offs
+- Avoid elitism about languages or tooling
 - Be patient with less experienced developers
 - Compartilhe conhecimento abertamente
 

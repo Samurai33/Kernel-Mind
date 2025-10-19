@@ -235,7 +235,7 @@ oscillatorR.frequency.setValueAtTime(carrierFreq + binauralFreq, audioContext.cu
 - **Pomodoro Timer**: Integration with productivity techniques
 - **Statistics**: Usage and productivity tracking
 
-## 🔗 Integração com IDEs
+## 🔗 IDE Integration
 
 ### VS Code Extension
 ```json

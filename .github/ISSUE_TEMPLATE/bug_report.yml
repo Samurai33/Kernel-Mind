@@ -105,7 +105,7 @@ body:
         - Opera
         - Brave
         - Outro
-        - N/A - Não é problema de navegador
+  - N/A - Not a browser issue
     - Other
     - N/A - Not a browser issue
 
@@ -146,7 +146,7 @@ body:
         - Emacs
         - Atom
         - Outro
-        - N/A - Não estava usando IDE
+  - N/A - Not using an IDE
     - N/A - Not using an IDE
 
   - type: input

@@ -9,22 +9,22 @@ Thank you for your interest in contributing to KernelMind! This document contain
 - **Improvement suggestions**: BPM adjustments, binaural frequencies, structure
 - **New tracks**: Proposals for album expansions
 
-### 💻 Desenvolvimento
-- **Web App**: Frontend/backend para aplicativo interativo
-- **IDE Extensions**: Plugins para VS Code, JetBrains, etc.
-- **Bug fixes**: Correções em código existente
-- **Features**: Implementação de novas funcionalidades
+### 💻 Development
+- **Web App**: Frontend/backend for the interactive application
+- **IDE Extensions**: Plugins for VS Code, JetBrains, etc.
+- **Bug fixes**: Fixes to existing code
+- **Features**: Implementation of new functionality
 
-### 🔬 Pesquisa Científica
-- **Estudos de caso**: Documentar efeitos das batidas binaurais
-- **Revisão de literatura**: Atualizar base científica
-- **Metodologia**: Melhorar protocolos de teste
+### 🔬 Scientific Research
+- **Case studies**: Document effects of binaural beats
+- **Literature review**: Keep the research base updated
+- **Methodology**: Improve testing protocols
 
 ### 📚 Documentation
-- **Traduções**: i18n para outros idiomas
-- **Tutoriais**: Como usar o KernelMind efetivamente
-- **Exemplos**: Casos de uso específicos
-- **FAQ**: Respostas a perguntas comuns
+- **Translations**: i18n for other languages
+- **Tutorials**: How to use KernelMind effectively
+- **Examples**: Specific use-case examples
+- **FAQ**: Answers to common questions
 
 ### 🎨 Design
 - **Visual identity**: Refinamentos na identidade visual

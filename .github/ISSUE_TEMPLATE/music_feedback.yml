@@ -159,12 +159,8 @@ body:
   - type: dropdown
     id: programming-language
     attributes:
-      label: 💻 Linguagem de Programação
-      description: Que linguagem você estava usando?
-      id: programming-language
-      attributes:
-        label: 💻 Programming Language
-        description: Which language were you using?
+      label: 💻 Programming Language
+      description: Which language were you using?
       options:
         - JavaScript / TypeScript
         - Python
@@ -187,12 +183,8 @@ body:
   - type: dropdown
     id: task-type
     attributes:
-      label: 🎯 Tipo de Tarefa
-      description: Que tipo de trabalho você estava fazendo?
-      id: task-type
-      attributes:
-        label: 🎯 Task Type
-        description: What kind of work were you doing?
+      label: 🎯 Task Type
+      description: What kind of work were you doing?
       options:
         - 🎆 Working on a new feature
         - 🐛 Fixing bugs

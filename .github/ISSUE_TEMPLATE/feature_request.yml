@@ -40,9 +40,9 @@ body:
   label: Priority (in your opinion)
   description: How important is this feature to you?
       options:
-        - 🔴 Must-have - Crucial para meu workflow
-        - 🟠 High - Melhoraria muito minha experiência
-        - 🟡 Medium - Seria útil ter
+  - 🔴 Must-have - Crucial for my workflow
+  - 🟠 High - Would greatly improve my experience
+  - 🟡 Medium - Would be useful to have
         - 🟢 Low - Nice-to-have
     validations:
       required: true
@@ -97,11 +97,11 @@ body:
         - Game Developer
         - Data Scientist / ML Engineer
         - DevOps / SRE
-        - UI/UX Designer que programa
-        - Estudante de Programação
-        - Freelancer
-        - Tech Lead / Manager
-        - Outro
+  - UI/UX Designer who codes
+  - Programming Student
+  - Freelancer
+  - Tech Lead / Manager
+  - Other
     validations:
       required: true
 
