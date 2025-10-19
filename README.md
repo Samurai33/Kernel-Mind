@@ -1,11 +1,23 @@
 # KernelMind — Focused Sound for Developers
 
-![KernelMind logo](kernel_mind_logo.png)
+<div align="center">
+  <img src="kernel_mind_logo.png" alt="KernelMind logo" width="200" height="200">
+</div>
 
-[![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/KernelMind/KernelMind/releases)
-[![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![ci](https://github.com/KernelMind/KernelMind/workflows/CI/CD%20Pipeline/badge.svg)](https://github.com/KernelMind/KernelMind/actions)
-[![status](https://img.shields.io/badge/status-Beta-orange.svg)](https://github.com/KernelMind/KernelMind)
+<div align="center">
+  <a href="https://github.com/KernelMind/KernelMind/releases">
+    <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="version">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="license">
+  </a>
+  <a href="https://github.com/KernelMind/KernelMind/actions">
+    <img src="https://github.com/KernelMind/KernelMind/actions/workflows/main.yml/badge.svg" alt="ci">
+  </a>
+  <a href="https://github.com/KernelMind/KernelMind">
+    <img src="https://img.shields.io/badge/status-Beta-orange.svg" alt="status">
+  </a>
+</div>
 
 > Neuroscience-informed ambient music and interactive tooling to help developers focus, debug, and create.
 
@@ -182,7 +194,11 @@ MIT — see [LICENSE](LICENSE).
 
 Thanks to everyone who contributed. See the contributors graph on GitHub.
 
-[![Contributors](https://contrib.rocks/image?repo=KernelMind/KernelMind&size=200)](https://github.com/KernelMind/KernelMind/graphs/contributors)
+<div align="center">
+    <img src="https://contrib.rocks/image?repo=KernelMind/KernelMind&size=200" alt="Contributors">
+    <br>
+    <img src="https://github.com/Samurai33.png" alt="Samurai33" width="200" height="200">
+</div>
 
 ---
 
