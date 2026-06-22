@@ -1,87 +1,68 @@
-# KernelMind — Focused Sound for Developers
-
 <div align="center">
-  <img src="kernel_mind_logo.png" alt="KernelMind logo" width="200" height="200">
+
+<img src="kernel_mind_logo.png" alt="KernelMind logo" width="170">
+
+# KernelMind
+
+### Neuroscience-informed sound design for developer focus
+
+[![Listen](https://img.shields.io/badge/Listen-YouTube_Playlist-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLEHQ0mK4Ozby9VBG_rj7VJnqxjaHbGOzI)
+[![Status](https://img.shields.io/badge/Status-Research_%26_Product_Concept-8B5CF6?style=for-the-badge)](#current-status)
+[![License](https://img.shields.io/badge/License-See_LICENSE-F59E0B?style=for-the-badge)](LICENSE)
+
 </div>
 
-<div align="center">
-  <a href="https://github.com/KernelMind/KernelMind/releases">
-    <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="version">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="license">
-  </a>
-  <a href="https://github.com/KernelMind/KernelMind/actions">
-    <img src="https://github.com/KernelMind/KernelMind/actions/workflows/main.yml/badge.svg" alt="ci">
-  </a>
-  <a href="https://github.com/KernelMind/KernelMind">
-    <img src="https://img.shields.io/badge/status-Beta-orange.svg" alt="status">
-  </a>
-</div>
+## Overview
 
-> Neuroscience-informed ambient music and interactive tooling to help developers focus, debug, and create.
+KernelMind is a research and product concept exploring how ambient soundscapes,
+rhythm and binaural techniques could support focus during programming and other
+forms of deep work.
 
----
+This repository currently contains the research base, audio specifications,
+product roadmap, visual identity and contribution model. It should be evaluated
+as a documented concept, not as a released application or validated medical tool.
 
-## What is KernelMind?
+## What is available
 
-KernelMind is a neuroscience-inspired platform that combines ambient music and interactive tools to enhance developer productivity. By leveraging binaural beats, adaptive soundscapes, and IDE integrations, KernelMind helps developers achieve and sustain flow states while coding.
+- Public concept playlist
+- Neuroscience and psychoacoustics research notes
+- Audio engineering and mastering specifications
+- Product and implementation roadmap
+- Visual identity guide
+- Music-production prompt library
+- Security, contribution and community guidelines
 
----
+## Documentation
 
-## Key Features
+| Resource | Purpose |
+| --- | --- |
+| [Scientific Research](SCIENTIFIC_RESEARCH.md) | Research context and references |
+| [Technical Specifications](TECHNICAL_SPECIFICATIONS.md) | Audio and product requirements |
+| [Implementation Roadmap](IMPLEMENTATION_ROADMAP.md) | Proposed delivery phases |
+| [Visual Identity](VISUAL_IDENTITY_GUIDE.md) | Brand and interface direction |
+| [Producer Prompts](Producer-AI-Prompts.md) | Sound-production concepts |
+| [FAQ](FAQ.md) | Scope and common questions |
 
-- **High-Fidelity Audio**: Masters at 48 kHz / 24-bit with a target of -16 LUFS.
-- **Binaural Beats**: Carrier frequency ~220 Hz with differences in the 6–40 Hz range.
-- **Adaptive BPM**: Dynamically adjusts tempo based on typing patterns.
-- **IDE Integrations**: Plugins for VS Code and JetBrains to enhance focus sessions.
-- **Exportable Stems**: For remixing and reproducible research.
-- **Privacy-First Telemetry**: Opt-in and anonymized data collection for research purposes.
+## Current status
 
----
+- Research and documentation: available
+- Music concepts: available through the linked playlist
+- Web player and desktop/mobile applications: planned
+- IDE integrations: planned
+- Focus or health outcomes: not clinically validated
 
-## How It Works
+## Scientific responsibility
 
-1. **Ambient Soundscapes**: KernelMind generates adaptive soundscapes tailored to your workflow.
-2. **Binaural Engine**: Uses oscillators and HRTF to create immersive binaural beats.
-3. **IDE Plugins**: Seamlessly integrates with your favorite IDEs to provide focus sessions and notifications.
-4. **Research-Backed**: Built on scientific principles to enhance cognitive performance and reduce distractions.
-
----
-
-## Use Cases
-
-- **Deep Work**: Maintain focus during long coding sessions.
-- **Debugging**: Reduce frustration and stay calm while solving complex issues.
-- **Creative Coding**: Enhance creativity with adaptive soundscapes.
-- **Team Collaboration**: Use shared soundscapes to synchronize team energy.
-
----
+KernelMind does not make medical or therapeutic claims. Binaural-beat and
+productivity research is mixed, individual responses vary, and listening volume
+should remain safe. The project is intended for experimentation and creative
+focus support.
 
 ## Contributing
 
-We welcome contributions from the community! Start by reading our [CONTRIBUTING.md](CONTRIBUTING.md) guide. Join our Discord community (link in the repo) and look for issues tagged `good first issue`.
+See [CONTRIBUTING.md](CONTRIBUTING.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+and [SECURITY.md](SECURITY.md).
 
----
+## License
 
-## Learn More
-
-- [Scientific Research](SCIENTIFIC_RESEARCH.md): Explore the science behind KernelMind.
-- [Implementation Roadmap](IMPLEMENTATION_ROADMAP.md): See our future plans.
-- [Documentation](https://kernelmind.audio/docs): Detailed guides and API references.
-
----
-
-## Contributors
-
-Thanks to everyone who contributed. See the contributors graph on GitHub.
-
-<div align="center">
-    <img src="https://contrib.rocks/image?repo=KernelMind/KernelMind&size=200" alt="Contributors">
-    <br>
-    <img src="https://github.com/Samurai33.png" alt="Samurai33" width="200" height="200">
-</div>
-
----
-
-Made with ❤️ for the global developer community.
+See [LICENSE](LICENSE) for software, documentation and music-specific terms.
